@@ -14,19 +14,34 @@ header {
 
 .logo {
     margin-left: 119px;
+    margin-top: 10px;
 }
 
 ul{
     display: flex;
     list-style-type: none;
+    padding-top: 25px;
     a{
         text-decoration: none;
         color: #000;
-        padding:20px;
-        
+        margin-left: 45px;        
     }
 }
 
-.icons {
+.search {
+    border: 2px solid #000;
+    border-radius: 50px;
     margin-right: 119px;
+    margin-top: 15px;
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+    padding: 5px;
+    .search-text{
+        margin-left: 10px;
+    }
+    .search-icon{
+        padding-bottom: 5px;
+        margin-right: 10px;
+    }
 }
