@@ -13,7 +13,7 @@
 
 //header+baggrundbilled
 .section-1{
-    background-image: url(../img/trapholt-udsigt.webp);
+    background-image: url(../img/trapholt-building.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -95,5 +95,12 @@ ul{
     }
     .fourth-display-text {
         padding: 40px ;
+    }
+}
+
+.footer-text {
+    display: flex;
+    .menus{
+        padding: 40px 75px 40px 75px;
     }
 }

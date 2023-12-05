@@ -11982,7 +11982,7 @@ textarea.form-control-lg {
 }
 
 .section-1 {
-  background-image: url(../img/trapholt-udsigt.webp);
+  background-image: url(../img/trapholt-building.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
@@ -12060,4 +12060,11 @@ ul a {
 }
 .first-display .fourth-display-text, .second-display .fourth-display-text, .third-display .fourth-display-text, .fourth-display .fourth-display-text {
   padding: 40px;
+}
+
+.footer-text {
+  display: flex;
+}
+.footer-text .menus {
+  padding: 40px 75px 40px 75px;
 }/*# sourceMappingURL=main.css.map */
