@@ -11981,19 +11981,26 @@ textarea.form-control-lg {
   padding: 0;
 }
 
-body {
+.section-1 {
   background-image: url(../img/trapholt-udsigt.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
+  height: 100vh;
 }
 
 header {
   display: flex;
   justify-content: space-between;
   background-color: rgba(0, 0, 0, 0.6);
-  padding: 10px;
+  padding: 10px 0 10px 0;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .logo {
@@ -12024,15 +12031,33 @@ ul a {
 }
 .search .search-text {
   margin-left: 10px;
-  color: #ffffff;
+  margin-top: 2px;
+  color: #000000;
 }
 .search .search-icon {
   padding-bottom: 5px;
   margin-right: 10px;
-  color: #ffffff;
+  color: #000000;
 }
 
 .trapholt-title-logo {
-  margin-top: 100px;
-  margin-left: 135px;
+  padding-top: 150px;
+  padding-left: 119px;
+}
+
+.first-display, .second-display, .third-display, .fourth-display {
+  display: flex;
+  padding: 200px 119px 200px 119px;
+}
+.first-display .first-display-text, .second-display .first-display-text, .third-display .first-display-text, .fourth-display .first-display-text {
+  padding: 40px;
+}
+.first-display .second-display-text, .second-display .second-display-text, .third-display .second-display-text, .fourth-display .second-display-text {
+  padding: 40px 40px 40px 0;
+}
+.first-display .third-display-text, .second-display .third-display-text, .third-display .third-display-text, .fourth-display .third-display-text {
+  padding: 30px 40px 40px 40px;
+}
+.first-display .fourth-display-text, .second-display .fourth-display-text, .third-display .fourth-display-text, .fourth-display .fourth-display-text {
+  padding: 40px;
 }/*# sourceMappingURL=main.css.map */
