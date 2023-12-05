@@ -12064,7 +12064,17 @@ ul a {
 
 .footer-text {
   display: flex;
+  justify-content: space-between;
 }
 .footer-text .menus {
   padding: 40px 75px 40px 75px;
+}
+.footer-text .fourth-footer-text {
+  display: flex;
+}
+.footer-text .image-footer {
+  width: 308px;
+  height: 68px;
+  transform: rotate(90deg);
+  margin-top: 100px;
 }/*# sourceMappingURL=main.css.map */

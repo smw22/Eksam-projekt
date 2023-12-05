@@ -100,7 +100,18 @@ ul{
 
 .footer-text {
     display: flex;
+    justify-content: space-between;
     .menus{
         padding: 40px 75px 40px 75px;
     }
+    .fourth-footer-text{
+        display: flex;
+    }
+    .image-footer{
+        width: 308px;
+        height: 68px;
+        transform: rotate(90deg);
+        margin-top: 100px;
+    }
+    
 }
