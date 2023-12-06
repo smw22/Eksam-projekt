@@ -71,9 +71,9 @@ ul{
     }
 }
 
-.trapholt-title-logo{
-    padding-top: 150px;
+.trapholt-subtitle-logo {
     padding-left: 119px;
+    padding-top: 150px;
 }
 
 
@@ -106,6 +106,35 @@ ul{
     }
     .fourth-footer-text{
         display: flex;
+        
+        .email-nyhedsbrev{
+            width: 200px;
+            height: 35px;
+            background-color: white;
+            color: #000000;
+            display: flex;
+
+            .email-nyhedsbrev-text{
+                margin-top: 5px;
+                margin-left: 10px;
+                padding-right: 40px;
+
+            }
+        }
+
+
+        .tilmeld-dig-button{
+            width: 100px;
+            height: 35px;
+            text-align: center;
+            background-color: rgb(161, 161, 161);
+
+
+            .email-nyhedsbrev-text-2 {
+                margin-top:5px;
+            }
+
+        }
     }
     .image-footer{
         width: 308px;
@@ -114,4 +143,44 @@ ul{
         margin-top: 100px;
     }
     
+}
+
+
+//Billeder til brugere af bærbare computere (ændre størrelsen på dem, fordi opløsningen på bærbare computere stiger til 125%, og det ser ikke godt ud med lange billeder)
+.first-display-image-small , .second-display-image-small, .third-display-image-small, .fourth-display-image-small   {
+    display: none;
+}
+
+@media all and (max-width: 1700px) {
+    .first-display-image{
+        display: none;
+    }
+   
+      .first-display-image-small{
+        display: block;
+    }
+
+    .second-display-image{
+        display: none;
+    }
+   
+      .second-display-image-small{
+        display: block;
+    }
+
+    .third-display-image{
+        display: none;
+    }
+   
+      .third-display-image-small{
+        display: block;
+    }
+
+    .fourth-display-image{
+        display: none;
+    }
+   
+      .fourth-display-image-small{
+        display: block;
+    }
 }

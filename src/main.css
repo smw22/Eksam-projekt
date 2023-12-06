@@ -12040,9 +12040,9 @@ ul a {
   color: #000000;
 }
 
-.trapholt-title-logo {
-  padding-top: 150px;
+.trapholt-subtitle-logo {
   padding-left: 119px;
+  padding-top: 150px;
 }
 
 .first-display, .second-display, .third-display, .fourth-display {
@@ -12072,9 +12072,61 @@ ul a {
 .footer-text .fourth-footer-text {
   display: flex;
 }
+.footer-text .fourth-footer-text .email-nyhedsbrev {
+  width: 200px;
+  height: 35px;
+  background-color: white;
+  color: #000000;
+  display: flex;
+}
+.footer-text .fourth-footer-text .email-nyhedsbrev .email-nyhedsbrev-text {
+  margin-top: 5px;
+  margin-left: 10px;
+  padding-right: 40px;
+}
+.footer-text .fourth-footer-text .tilmeld-dig-button {
+  width: 100px;
+  height: 35px;
+  text-align: center;
+  background-color: rgb(161, 161, 161);
+}
+.footer-text .fourth-footer-text .tilmeld-dig-button .email-nyhedsbrev-text-2 {
+  margin-top: 5px;
+}
 .footer-text .image-footer {
   width: 308px;
   height: 68px;
   transform: rotate(90deg);
   margin-top: 100px;
+}
+
+.first-display-image-small, .second-display-image-small, .third-display-image-small, .fourth-display-image-small {
+  display: none;
+}
+
+@media all and (max-width: 1700px) {
+  .first-display-image {
+    display: none;
+  }
+  .first-display-image-small {
+    display: block;
+  }
+  .second-display-image {
+    display: none;
+  }
+  .second-display-image-small {
+    display: block;
+  }
+  .third-display-image {
+    display: none;
+  }
+  .third-display-image-small {
+    display: block;
+  }
+  .fourth-display-image {
+    display: none;
+  }
+  .fourth-display-image-small {
+    display: block;
+  }
 }/*# sourceMappingURL=main.css.map */
