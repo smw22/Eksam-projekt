@@ -12019,6 +12019,16 @@ ul a {
   margin-left: 45px;
 }
 
+.first-dropdown {
+  padding: 0 40px 0 0;
+}
+.first-dropdown .dropdown-title {
+  padding: 0;
+}
+.first-dropdown .dropdown-item {
+  margin: 0;
+}
+
 .search {
   border: 2px solid #ffffff;
   border-radius: 50px;
@@ -12092,12 +12102,6 @@ ul a {
 }
 .footer-text .fourth-footer-text .tilmeld-dig-button .email-nyhedsbrev-text-2 {
   margin-top: 5px;
-}
-.footer-text .image-footer {
-  width: 308px;
-  height: 68px;
-  transform: rotate(90deg);
-  margin-top: 100px;
 }
 
 .first-display-image-small, .second-display-image-small, .third-display-image-small, .fourth-display-image-small {

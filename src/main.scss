@@ -50,6 +50,17 @@ ul{
     }
 }
 
+.first-dropdown{
+    padding: 0 40px 0 0;
+
+    .dropdown-title{
+        padding: 0;
+    }
+    .dropdown-item{
+        margin: 0;
+    }
+}
+
 .search {
     border: 2px solid #ffffff;
     border-radius: 50px;
@@ -101,9 +112,11 @@ ul{
 .footer-text {
     display: flex;
     justify-content: space-between;
+
     .menus{
         padding: 40px 75px 40px 75px;
     }
+
     .fourth-footer-text{
         display: flex;
         
@@ -136,12 +149,13 @@ ul{
 
         }
     }
-    .image-footer{
-        width: 308px;
-        height: 68px;
-        transform: rotate(90deg);
-        margin-top: 100px;
-    }
+    
+    // .image-footer{
+    //     width: 308px;
+    //     height: 68px;
+    //     transform: rotate(90deg);
+    //     margin-top: 100px;
+    // }
     
 }
 
