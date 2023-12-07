@@ -12055,21 +12055,24 @@ ul a {
   padding-top: 150px;
 }
 
-.first-display, .second-display, .third-display, .fourth-display {
+.first-display, .second-display, .third-display, .fourth-display, .fifth-display {
   display: flex;
   padding: 200px 119px 200px 119px;
 }
-.first-display .first-display-text, .second-display .first-display-text, .third-display .first-display-text, .fourth-display .first-display-text {
-  padding: 40px;
+.first-display .first-display-text, .second-display .first-display-text, .third-display .first-display-text, .fourth-display .first-display-text, .fifth-display .first-display-text {
+  padding: 25px 40px 40px 40px;
 }
-.first-display .second-display-text, .second-display .second-display-text, .third-display .second-display-text, .fourth-display .second-display-text {
+.first-display .second-display-text, .second-display .second-display-text, .third-display .second-display-text, .fourth-display .second-display-text, .fifth-display .second-display-text {
   padding: 40px 40px 40px 0;
 }
-.first-display .third-display-text, .second-display .third-display-text, .third-display .third-display-text, .fourth-display .third-display-text {
-  padding: 30px 40px 40px 40px;
+.first-display .third-display-text, .second-display .third-display-text, .third-display .third-display-text, .fourth-display .third-display-text, .fifth-display .third-display-text {
+  padding: 40px 40px 40px 40px;
 }
-.first-display .fourth-display-text, .second-display .fourth-display-text, .third-display .fourth-display-text, .fourth-display .fourth-display-text {
+.first-display .fourth-display-text, .second-display .fourth-display-text, .third-display .fourth-display-text, .fourth-display .fourth-display-text, .fifth-display .fourth-display-text {
   padding: 40px;
+}
+.first-display .fifth-display-text, .second-display .fifth-display-text, .third-display .fifth-display-text, .fourth-display .fifth-display-text, .fifth-display .fifth-display-text {
+  padding: 15px 40px 40px 40px;
 }
 
 .footer-text {
@@ -12131,6 +12134,12 @@ ul a {
     display: none;
   }
   .fourth-display-image-small {
+    display: block;
+  }
+  .fifth-display-image {
+    display: none;
+  }
+  .fifth-display-image-small {
     display: block;
   }
 }/*# sourceMappingURL=main.css.map */
