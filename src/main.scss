@@ -113,7 +113,7 @@ ul{
         padding: 40px ;
     }
     .fifth-display-text {
-        padding: 15px 40px 40px 40px ;
+        padding: 40px;
     }
 }
 
@@ -170,7 +170,7 @@ ul{
 
 
 //Billeder til brugere af bærbare computere (ændre størrelsen på dem, fordi opløsningen på bærbare computere stiger til 125%, og det ser ikke godt ud med lange billeder)
-.first-display-image-small , .second-display-image-small, .third-display-image-small, .fourth-display-image-small   {
+.first-display-image-small , .second-display-image-small, .third-display-image-small, .fourth-display-image-small, .fifth-display-image-small   {
     display: none;
 }
 
@@ -206,11 +206,70 @@ ul{
       .fourth-display-image-small{
         display: block;
     }
+
     .fifth-display-image{
         display: none;
     }
    
       .fifth-display-image-small{
         display: block;
+    }
+}
+
+
+.section-1-kubeflex{
+    background-image: url(../img/kubeflex.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    height:100vh;
+}
+
+.kubeflex-logo-text {
+    padding-left: 119px;
+    padding-top: 600px;
+    color:#ffffff;
+    font-size: 150px;
+}
+
+.kubeflex-body-first-section{
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 50px;
+
+    .kubeflex-body-first-section-text{
+        padding-left: 119px;
+        padding-right: 80px;
+        padding-top: 50px;
+
+        .kubeflex-body-first-section-paragraphl{
+            line-height: 25px;
+        }
+    }
+    .first-kubeflex-body-image{
+        width: 800px;
+        height: 600px;
+        padding-right: 119px;
+    }
+}
+
+
+.kubeflex-body-second-section{
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    .kubeflex-body-second-section-text{
+        padding-right: 119px;
+        padding-left: 80px;
+        padding-top: 20px;
+
+        .kubeflex-body-second-section-paragraph{
+            line-height: 25px;
+        }
+    }
+    .second-kubeflex-body-image{
+        padding-left: 119px;
     }
 }
