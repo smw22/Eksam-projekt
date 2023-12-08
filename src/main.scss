@@ -113,7 +113,7 @@ ul{
         padding: 40px ;
     }
     .fifth-display-text {
-        padding: 40px;
+        padding: 30px 40px 40px 40px;
     }
 }
 
@@ -269,7 +269,46 @@ ul{
             line-height: 25px;
         }
     }
-    .second-kubeflex-body-image{
+    .kubeflex-body-second-section-image{
         padding-left: 119px;
     }
+}
+
+.first-kubeflex-body-image-small{
+    display: none;
+}
+.guidede-ture-resolution{
+    display: none;
+}
+
+@media all and (max-width: 1700px) {
+    .kubeflex-logo-text {
+        padding-left: 119px;
+        padding-top: 450px;
+        color:#ffffff;
+        font-size: 125px;
+    }
+    .first-kubeflex-body-image{
+        display: none;
+    }
+   
+    .first-kubeflex-body-image-small{
+        display: block;
+        width: 600px;
+        padding-right: 119px;
+    }
+    .guidede-ture {
+        display: none;
+    }
+    .guidede-ture-resolution{
+        flex:none;
+        display: block;
+        padding-left: 119px;
+        padding-right: 119px;
+        padding-bottom: 50px;
+    }
+    .kubeflex-body-second-section{
+        padding-bottom: 40px;
+    }
+
 }
