@@ -12231,4 +12231,67 @@ ul a {
   .kubeflex-body-second-section {
     padding-bottom: 40px;
   }
+}
+.section-1-clay-and-paper {
+  background-image: url(../img/clay-and-paper.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+}
+
+.clay-and-paper-logo-text {
+  padding-left: 119px;
+  padding-top: 600px;
+  color: #ffffff;
+  font-size: 150px;
+}
+
+.section-1-nanna-ditzel {
+  background-image: url(../img/Nanna-Ditzel.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+}
+
+.nanna-ditzel-logo-text {
+  padding-left: 119px;
+  padding-top: 400px;
+  color: #ffffff;
+  font-size: 150px;
+}
+
+.section-1-things-matter {
+  background-image: url(../img/things-matter.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+}
+
+.things-matter-logo-text {
+  padding-left: 600px;
+  padding-top: 700px;
+  color: #ffffff;
+  font-size: 150px;
+}
+
+.section-1-shaping-a-pattern {
+  background-image: url(../img/maria-torp.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+}
+
+.shaping-a-pattern-logo-text {
+  padding-left: 119px;
+  padding-top: 600px;
+  color: #ffffff;
+  font-size: 150px;
 }/*# sourceMappingURL=main.css.map */
