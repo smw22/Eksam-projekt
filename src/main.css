@@ -12143,6 +12143,43 @@ ul a {
     display: block;
   }
 }
+
+
+
+
+.section-1-besøg{
+  background-image: url(../img/besøg-os.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+}
+
+.besøg-logo-text{
+  padding-left: 119px;
+  padding-top: 600px;
+  color: #ffffff;
+  font-size: 150px;
+}
+
+.besøg-underskrift{
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+
+.besøg-overskrift{
+  font-weight: bolder;
+  
+}
+
+.besøg-text{
+  padding-left: 250px;
+  padding-right: 80px;
+  padding-top: 50px;
+  
+}
+
 .section-1-kubeflex {
   background-image: url(../img/kubeflex.webp);
   background-repeat: no-repeat;
