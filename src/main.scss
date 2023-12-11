@@ -333,6 +333,87 @@ ul{
     font-size: 150px;
 }
 
+.clay-and-paper-body-first-section{
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 50px;
+
+    .clay-and-paper-body-first-section-text{
+        padding-left: 119px;
+        padding-right: 80px;
+        padding-top: 75px;
+
+        .clay-and-paper-body-first-section-paragraphl{
+            line-height: 25px;
+        }
+    }
+    .first-clay-and-paper-body-image{
+        width: 1000px;
+        height: 500px;
+        padding-right: 119px;
+    }
+}
+
+
+.clay-and-paper-body-second-section{
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    .clay-and-paper-body-second-section-text{
+        padding-right: 119px;
+        padding-left: 80px;
+
+        .clay-and-paper-body-second-section-paragraph{
+            line-height: 25px;
+        }
+    }
+    .clay-and-paper-body-second-section-image{
+        padding-left: 119px;
+    }
+    .second-clay-and-paper-body-image{
+        width: 600px;
+    }
+    .third-clay-and-paper-body-image{
+        width: 950px;
+        height: 625px;
+        padding-top: 30px;
+    }
+}
+
+.first-clay-and-paper-body-image-small{
+    display: none;
+}
+
+@media all and (max-width: 1700px) {
+    .clay-and-paper-logo-text {
+        padding-left: 119px;
+        padding-top: 450px;
+        color:#ffffff;
+        font-size: 125px;
+    }
+    .first-clay-and-paper-body-image{
+        display: none;
+    }
+    .clay-and-paper-body-first-section .clay-and-paper-body-first-section-text {
+        padding-top: 20px;
+    }
+    .first-clay-and-paper-body-image-small{
+        display: block;
+        width: 700px;
+        padding-right: 119px;
+    }
+    .clay-and-paper-body-second-section-image .second-clay-and-paper-body-image{
+        width: 400px;
+        height: 625px;
+    }
+    .clay-and-paper-body-third-section-image .third-clay-and-paper-body-image{
+        width: 775px;
+        height: 400px;
+    }
+}
+
+
 // Nanna Ditzel side
 
 .section-1-nanna-ditzel{
@@ -349,6 +430,77 @@ ul{
     padding-top: 400px;
     color:#ffffff;
     font-size: 150px;
+}
+
+.nanna-ditzel-body-first-section{
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 50px;
+
+    .nanna-ditzel-body-first-section-text{
+        padding-left: 119px;
+        padding-right: 80px;
+        padding-top: 100px;
+
+        .nanna-ditzel-body-first-section-paragraphl{
+            line-height: 25px;
+        }
+    }
+    .first-nanna-ditzel-body-image{
+        width: 900px;
+        height: 600px;
+        padding-right: 119px;
+    }
+}
+
+
+.nanna-ditzel-body-second-section{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+
+    .nanna-ditzel-body-second-section-text{
+        padding-right: 119px;
+        padding-left: 80px;
+        padding-top: 50px;
+
+        .nanna-ditzel-body-second-section-paragraph{
+            line-height: 25px;
+        }
+    }
+    .nanna-ditzel-body-second-section-image{
+        padding-left: 119px;
+    }
+}
+
+.first-nanna-ditzel-body-image-small{
+    display: none;
+}
+
+@media all and (max-width: 1700px) {
+    .nanna-ditzel-logo-text {
+        padding-left: 119px;
+        padding-top: 350px;
+        color:#ffffff;
+        font-size: 120px;
+    }
+
+    .nanna-ditzel-body-second-section{
+        flex: 1;
+    }
+
+    .nanna-ditzel-body-first-section .nanna-ditzel-body-first-section-text {
+        padding-top: 35px;
+    }
+
+    .nanna-ditzel-body-second-section-image .second-nanna-ditzel-body-image {
+        width: 1281px;
+    }
+    .nanna-ditzel-body-second-section .nanna-ditzel-body-second-section-text{
+        padding-left: 119px;
+        padding-right: 119px;
+    }
+
 }
 
 // Things Matter side
