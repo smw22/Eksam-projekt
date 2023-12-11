@@ -12386,7 +12386,7 @@ ul a {
     font-size: 120px;
   }
   .nanna-ditzel-body-second-section {
-    flex: 1;
+    display: block;
   }
   .nanna-ditzel-body-first-section .nanna-ditzel-body-first-section-text {
     padding-top: 35px;
@@ -12415,6 +12415,88 @@ ul a {
   font-size: 150px;
 }
 
+.things-matter-body-first-section {
+  display: flex;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+.things-matter-body-first-section .things-matter-body-first-section-text {
+  padding-left: 119px;
+  padding-right: 80px;
+  padding-top: 10px;
+}
+.things-matter-body-first-section .things-matter-body-first-section-text .things-matter-body-first-section-paragraphl {
+  line-height: 25px;
+}
+.things-matter-body-first-section .first-things-matter-body-image {
+  width: 1000px;
+  padding-right: 119px;
+}
+
+.things-matter-body-second-section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: flex;
+}
+.things-matter-body-second-section .things-matter-body-second-section-text {
+  padding-right: 119px;
+  padding-left: 80px;
+  padding-top: 125px;
+}
+.things-matter-body-second-section .things-matter-body-second-section-text .things-matter-body-second-section-paragraph {
+  line-height: 25px;
+}
+.things-matter-body-second-section .things-matter-body-second-section-image {
+  padding-left: 119px;
+}
+.things-matter-body-second-section .second-things-matter-body-image {
+  width: 700px;
+}
+
+.first-things-matter-body-image-small {
+  display: none;
+}
+
+@media all and (max-width: 1700px) {
+  .things-matter-logo-text {
+    padding-left: 400px;
+    padding-top: 550px;
+    color: #ffffff;
+    font-size: 125px;
+  }
+  .things-matter-body-first-section {
+    display: block;
+  }
+  .things-matter-body-first-section .things-matter-body-first-section-text {
+    padding-right: 119px;
+  }
+  .things-matter-body-first-section .first-things-matter-body-image {
+    padding-left: 119px;
+    padding-right: 0;
+    width: 720px;
+  }
+  .things-matter-body-first-section .first-things-matter-body-image-small {
+    padding-left: 20px;
+    padding-right: 119px;
+    width: 800px;
+  }
+  .first-things-matter-body-image-small {
+    display: block;
+  }
+  .things-matter-body-first-section-image {
+    display: flex;
+  }
+  .things-matter-body-second-section .second-things-matter-body-image {
+    display: none;
+  }
+  .things-matter-body-second-section .things-matter-body-second-section-text {
+    padding-top: 0;
+    padding-left: 0;
+  }
+  .things-matter-body-second-section {
+    padding-top: 0;
+  }
+}
 .section-1-shaping-a-pattern {
   background-image: url(../img/maria-torp.webp);
   background-repeat: no-repeat;
@@ -12426,7 +12508,84 @@ ul a {
 
 .shaping-a-pattern-logo-text {
   padding-left: 119px;
-  padding-top: 600px;
+  padding-top: 550px;
   color: #ffffff;
   font-size: 150px;
+}
+
+.shaping-a-pattern-body-first-section {
+  display: flex;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+.shaping-a-pattern-body-first-section .shaping-a-pattern-body-first-section-text {
+  padding-left: 119px;
+  padding-right: 80px;
+  padding-top: 50px;
+}
+.shaping-a-pattern-body-first-section .shaping-a-pattern-body-first-section-text .shaping-a-pattern-body-first-section-paragraphl {
+  line-height: 25px;
+}
+.shaping-a-pattern-body-first-section .first-shaping-a-pattern-body-image {
+  width: 900px;
+  padding-right: 119px;
+}
+
+.shaping-a-pattern-body-second-section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: flex;
+}
+.shaping-a-pattern-body-second-section .shaping-a-pattern-body-second-section-text {
+  padding-right: 119px;
+  padding-left: 80px;
+  padding-top: 100px;
+}
+.shaping-a-pattern-body-second-section .shaping-a-pattern-body-second-section-text .shaping-a-pattern-body-second-section-paragraph {
+  line-height: 25px;
+}
+.shaping-a-pattern-body-second-section .shaping-a-pattern-body-second-section-image {
+  padding-left: 119px;
+}
+
+.shaping-a-pattern-body-third-section-text {
+  padding-right: 119px;
+  padding-left: 80px;
+  padding-top: 100px;
+  display: block;
+}
+.shaping-a-pattern-body-third-section-text .shaping-a-pattern-body-second-section-paragraph {
+  line-height: 25px;
+}
+
+.first-shaping-a-pattern-body-image-small {
+  display: none;
+}
+
+@media all and (max-width: 1700px) {
+  .shaping-a-pattern-logo-text {
+    padding-left: 119px;
+    padding-top: 425px;
+    color: #ffffff;
+    font-size: 125px;
+  }
+  .shaping-a-pattern-body-first-section .first-shaping-a-pattern-body-image {
+    width: 850px;
+    height: 400px;
+  }
+  .shaping-a-pattern-body-first-section .shaping-a-pattern-body-first-section-text {
+    padding-top: 0;
+    font-size: 14px;
+  }
+  .shaping-a-pattern-body-third-section-title {
+    display: none;
+  }
+  .shaping-a-pattern-body-third-section-paragraph {
+    display: none;
+  }
+  .shaping-a-pattern-body-third-section-text-resolution {
+    padding-left: 119px;
+    padding-right: 119px;
+    padding-bottom: 40px;
+  }
 }/*# sourceMappingURL=main.css.map */
