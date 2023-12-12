@@ -12035,7 +12035,7 @@ ul a {
 
 .search {
   border: 2px solid #ffffff;
-  border-radius: 50px;
+  border-radius: 2px;
   margin-right: 119px;
   margin-top: 10px;
   display: flex;
