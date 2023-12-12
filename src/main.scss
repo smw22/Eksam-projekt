@@ -810,9 +810,55 @@ ul{
         padding-left: 119px;
         padding-top: 500px;
         color: #ffffff;
-        font-size: 125px;
+        font-size: 150px;
     }
   }
+
+  // Designbutik side
+
+  .section-1-butik{
+    background-image: url(../img/designbutik-1.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+  }
+  
+  .butik-logo{
+    padding-left: 119px;
+    padding-top: 600px;
+    color:#ffffff;
+    font-size: 150px;
+  }
+  
+  .butik-text-først{ 
+    padding-left: 200px;
+    padding-top: 50px;
+    font-weight: bold;
+    font-size: large;
+    
+  }
+
+  .butik-overskrift{
+    padding-left: 200px;
+    font-weight: bold;
+}
+
+  .butik-text{
+    padding-left: 200px;
+  }
+
+  .butik-text-sidste-text{
+    padding-left: 200px;
+    padding-bottom: 25px;
+  }
+
+  .butik-text .butik-text-sidste-text{
+    line-height: 25px;
+  }
+
+
 // Om Trapholt side
 
 .om-trapholt-title {
@@ -837,6 +883,7 @@ ul{
     padding-right: 119px;
     padding-bottom: 50px;
 }
+
 
 // Besøg Os side
 
