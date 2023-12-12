@@ -12517,6 +12517,125 @@ ul a {
   font-size: 150px;
 }
 
+.shaping-a-pattern-body-first-section .shaping-a-pattern-body-first-section-text {
+  padding-left: 119px;
+  padding-right: 80px;
+  padding-top: 50px;
+}
+
+.shaping-a-pattern-body-first-section .shaping-a-pattern-body-first-section-text .shaping-a-pattern-body-first-section-paragraphl {
+  line-height: 25px;
+}
+
+.shaping-a-pattern-body-first-section .first-shaping-a-pattern-body-image {
+  width: 900px;
+  padding-right: 119px;
+}
+
+.shaping-a-pattern-body-second-section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: flex;
+}
+
+.shaping-a-pattern-body-second-section .shaping-a-pattern-body-second-section-text {
+  padding-right: 119px;
+  padding-left: 80px;
+  padding-top: 100px;
+}
+
+.shaping-a-pattern-body-second-section .shaping-a-pattern-body-second-section-text .shaping-a-pattern-body-second-section-paragraph {
+  line-height: 25px;
+}
+
+.shaping-a-pattern-body-second-section .shaping-a-pattern-body-second-section-image {
+  padding-left: 119px;
+}
+
+.shaping-a-pattern-body-third-section-text {
+  padding-right: 119px;
+  padding-left: 80px;
+  padding-top: 100px;
+  display: block;
+}
+
+.shaping-a-pattern-body-third-section-text .shaping-a-pattern-body-second-section-paragraph {
+  line-height: 25px;
+}
+
+.first-shaping-a-pattern-body-image-small {
+  display: none;
+}
+
+@media all and (max-width: 1700px) {
+  .shaping-a-pattern-logo-text {
+    padding-left: 119px;
+    padding-top: 425px;
+    color: #ffffff;
+    font-size: 125px;
+  }
+  .shaping-a-pattern-body-first-section .first-shaping-a-pattern-body-image {
+    width: 850px;
+    height: 400px;
+  }
+  .shaping-a-pattern-body-first-section .shaping-a-pattern-body-first-section-text {
+    padding-top: 0;
+    font-size: 14px;
+  }
+  .shaping-a-pattern-body-third-section-title {
+    display: none;
+  }
+  .shaping-a-pattern-body-third-section-paragraph {
+    display: none;
+  }
+  .shaping-a-pattern-body-third-section-text-resolution {
+    padding-left: 119px;
+    padding-right: 119px;
+    padding-bottom: 40px;
+  }
+}
+.section-1-cafe {
+  background-image: url(../img/cafe-baggrund.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+}
+
+.cafe-logo-text {
+  padding-left: 119px;
+  padding-top: 600px;
+  color: #ffffff;
+  font-size: 150px;
+}
+
+.cafe-body-first-section {
+  display: flex;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.cafe-body-first-section .cafe-body-first-section-text {
+  padding-left: 119px;
+  padding-right: 80px;
+}
+
+.cafe-body-first-section .cafe-body-first-section-text .cafe-body-first-section-paragraphl {
+  line-height: 25px;
+}
+
+.cafe-body-first-section .first-cafe-body-image {
+  width: 800px;
+  height: 510px;
+  padding-right: 119px;
+}
+
+.cafe-body-second-section .second-cafe-body-image {
+  width: 50px;
+  height: 10px;
+}
+
 .om-trapholt-title {
   padding-left: 119px;
   padding-top: 100px;
