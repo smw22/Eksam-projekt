@@ -63,6 +63,10 @@ ul{
     .dropdown-item{
         margin: 0;
     }
+    .nodropdown-item{
+        margin: 0;
+        color: #ffffff;
+    }
 }
 
 .search {
@@ -215,8 +219,6 @@ ul{
         display: block;
     }
 }
-
-
 
 
 
@@ -633,5 +635,27 @@ ul{
 }
 
 
+// Om Trapholt side
 
+.om-trapholt-title {
+    padding-left: 119px;
+    padding-top: 100px;
+}
 
+.om-trapholt-second-title{
+    padding-left: 119px;
+    padding-right: 119px;
+
+}
+
+.om-trapholt-text {
+    padding-left: 119px;
+    padding-right: 119px;
+}
+
+.video {
+    padding-left: 119px;
+    width: 100%;
+    padding-right: 119px;
+    padding-bottom: 50px;
+}

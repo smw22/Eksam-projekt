@@ -12028,6 +12028,10 @@ ul a {
 .first-dropdown .dropdown-item {
   margin: 0;
 }
+.first-dropdown .nodropdown-item {
+  margin: 0;
+  color: #ffffff;
+}
 
 .search {
   border: 2px solid #ffffff;
@@ -12143,43 +12147,6 @@ ul a {
     display: block;
   }
 }
-
-
-
-
-.section-1-besøg{
-  background-image: url(../img/besøg-os.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  background-size: cover;
-  height: 100vh;
-}
-
-.besøg-logo-text{
-  padding-left: 119px;
-  padding-top: 600px;
-  color: #ffffff;
-  font-size: 150px;
-}
-
-.besøg-underskrift{
-  padding-top: 50px;
-  padding-bottom: 10px;
-}
-
-.besøg-overskrift{
-  font-weight: bolder;
-  
-}
-
-.besøg-text{
-  padding-left: 250px;
-  padding-right: 80px;
-  padding-top: 50px;
-  
-}
-
 .section-1-kubeflex {
   background-image: url(../img/kubeflex.webp);
   background-repeat: no-repeat;
@@ -12550,79 +12517,24 @@ ul a {
   font-size: 150px;
 }
 
-.shaping-a-pattern-body-first-section {
-  display: flex;
+.om-trapholt-title {
+  padding-left: 119px;
   padding-top: 100px;
+}
+
+.om-trapholt-second-title {
+  padding-left: 119px;
+  padding-right: 119px;
+}
+
+.om-trapholt-text {
+  padding-left: 119px;
+  padding-right: 119px;
+}
+
+.video {
+  padding-left: 119px;
+  width: 100%;
+  padding-right: 119px;
   padding-bottom: 50px;
-}
-.shaping-a-pattern-body-first-section .shaping-a-pattern-body-first-section-text {
-  padding-left: 119px;
-  padding-right: 80px;
-  padding-top: 50px;
-}
-.shaping-a-pattern-body-first-section .shaping-a-pattern-body-first-section-text .shaping-a-pattern-body-first-section-paragraphl {
-  line-height: 25px;
-}
-.shaping-a-pattern-body-first-section .first-shaping-a-pattern-body-image {
-  width: 900px;
-  padding-right: 119px;
-}
-
-.shaping-a-pattern-body-second-section {
-  padding-top: 100px;
-  padding-bottom: 100px;
-  display: flex;
-}
-.shaping-a-pattern-body-second-section .shaping-a-pattern-body-second-section-text {
-  padding-right: 119px;
-  padding-left: 80px;
-  padding-top: 100px;
-}
-.shaping-a-pattern-body-second-section .shaping-a-pattern-body-second-section-text .shaping-a-pattern-body-second-section-paragraph {
-  line-height: 25px;
-}
-.shaping-a-pattern-body-second-section .shaping-a-pattern-body-second-section-image {
-  padding-left: 119px;
-}
-
-.shaping-a-pattern-body-third-section-text {
-  padding-right: 119px;
-  padding-left: 80px;
-  padding-top: 100px;
-  display: block;
-}
-.shaping-a-pattern-body-third-section-text .shaping-a-pattern-body-second-section-paragraph {
-  line-height: 25px;
-}
-
-.first-shaping-a-pattern-body-image-small {
-  display: none;
-}
-
-@media all and (max-width: 1700px) {
-  .shaping-a-pattern-logo-text {
-    padding-left: 119px;
-    padding-top: 425px;
-    color: #ffffff;
-    font-size: 125px;
-  }
-  .shaping-a-pattern-body-first-section .first-shaping-a-pattern-body-image {
-    width: 850px;
-    height: 400px;
-  }
-  .shaping-a-pattern-body-first-section .shaping-a-pattern-body-first-section-text {
-    padding-top: 0;
-    font-size: 14px;
-  }
-  .shaping-a-pattern-body-third-section-title {
-    display: none;
-  }
-  .shaping-a-pattern-body-third-section-paragraph {
-    display: none;
-  }
-  .shaping-a-pattern-body-third-section-text-resolution {
-    padding-left: 119px;
-    padding-right: 119px;
-    padding-bottom: 40px;
-  }
 }/*# sourceMappingURL=main.css.map */
