@@ -12626,3 +12626,47 @@ ul a {
     padding-bottom: 40px;
   }
 }/*# sourceMappingURL=main.css.map */
+
+
+
+
+.section-1-cafe{
+    background-image: url(../img/cafe-baggrund.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+}
+  
+.cafe-logo-text{
+    padding-left: 119px;
+    padding-top: 600px;
+    color: #ffffff;
+    font-size: 150px;
+}
+
+.cafe-body-first-section {
+  display: flex;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+.cafe-body-first-section .cafe-body-first-section-text {
+  padding-left: 119px;
+  padding-right: 80px;
+  
+}
+.cafe-body-first-section .cafe-body-first-section-text .cafe-body-first-section-paragraphl {
+  line-height: 25px;
+}
+.cafe-body-first-section .first-cafe-body-image {
+  width: 800px;
+  height: 510px;
+  padding-right: 119px;
+}
+
+.cafe-body-second-section .second-cafe-body-image{
+  width: 50px;
+  height: 10px;
+  
+}
