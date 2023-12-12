@@ -776,9 +776,34 @@ ul{
     padding-top: 30px;
   }
   .cafe-menu-overskrift{
-    padding-left: 119px;
-    padding-right: 119px;
+    padding-left: 300px;
+    padding-bottom: 10px;
   }
+
+  .cafe-overskrift{
+    padding-left: 300px;
+    font-weight: bold;
+  }
+  .cafe-text-first{
+    padding-bottom: 20px;
+    padding-left: 300px;
+    
+  }
+
+  .cafe-text{
+    padding-left: 300px;
+    line-height: 50px;
+  }
+
+  .cafe-text-sidste-text{
+    padding-left: 300px;
+    padding-bottom: 25px;
+  }
+
+  .cafe-bestil-bord{
+    padding-left: 300px;
+  }
+
 
   @media all and (max-width: 1700px) {
     .cafe-logo-text{
