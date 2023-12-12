@@ -12,16 +12,17 @@
 <body>
         <header class="sticky">
 
-
-            <div class="logo">
-                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 79 79">
-                    <g id="Rectangle_32" data-name="Rectangle 32" fill="#fff" stroke="#000" stroke-width="10">
-                    <rect width="79" height="79" stroke="none"/>
-                    <rect x="5" y="5" width="69" height="69" fill="none"/>
-                    </g>
-                </svg>
-                
-            </div>
+            <a href="index.html">
+                <div class="logo">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 79 79">
+                        <g id="Rectangle_32" data-name="Rectangle 32" fill="#fff" stroke="#000" stroke-width="10">
+                        <rect width="79" height="79" stroke="none"/>
+                        <rect x="5" y="5" width="69" height="69" fill="none"/>
+                        </g>
+                    </svg>
+                    
+                </div>
+            </a>
 
             <div class="nav">
                 <ul>
@@ -68,9 +69,7 @@
 
                     <li>
                         <div class="dropdown first-dropdown">
-                            <div class="dropdown-title text-white" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Kontakt Os
-                            </div>
+                            <a class="nodropdown-item" href="kontakt-os.html">Kontakt Os</a>
                         </div>
                     </li>
 
@@ -92,58 +91,81 @@
 
         <main>
             <h1 class="kontakt-os-title"> KONTAKT</h1>
-            <h2 class="kontakt-os-subtitle"> Email: kunstmuseum@trapholt.dk</h2>
-            <h2 class="kontakt-os-subtitle"> Telefon: 76 30 05 30</h2>
+            <h3 class="kontakt-os-subtitle"> 
+                Email: kunstmuseum@trapholt.dk <br>
+                Telefon: 76 30 05 30
+            </h3>
             <p class="kontakt-os-tekst-title">Ledelse</p>
-            <p class="kontakt-os-tekst">
-                Karen Grøn <br>
-                Museumsdirektør <br>
-                M: 51 34 12 95 <br>
-                E: kg@trapholt.dk <br>
-            </p>
-            <p class="kontakt-os-tekst">
-                Vera Westergaard <br>
-                Udstillingschef <br>
-                M: 21 72 03 33 <br>
-                T: 79 79 43 38 <br>
-                E: vw@trapholt.dk <br>
-            </p>
-            <p class="kontakt-os-tekst">
-                Kristina Ringkjøbing-Christiansen <br>
-                Økonomi- og Administrationschef <br>
-                T: 79 79 43 22 <br>
-                M: 20 18 80 58 <br>
-                E: kriri@trapholt.dk <br>
-            </p>
-            <p class="kontakt-os-tekst">
-                Steen Kjærulff Leth <br>
-                Driftschef <br>
-                T: 30 70 42 63 <br>
-                E: stlet@trapholt.dk <br>
-            </p>
+            <div class="ledelse">
+                <p class="kontakt-os-tekst">
+                    Karen Grøn <br>
+                    Museumsdirektør <br>
+                    M: 51 34 12 95 <br>
+                    E: kg@trapholt.dk <br>
+                </p>
+                <p class="kontakt-os-tekst">
+                    Vera Westergaard <br>
+                    Udstillingschef <br>
+                    M: 21 72 03 33 <br>
+                    T: 79 79 43 38 <br>
+                    E: vw@trapholt.dk 
+                </p>
+                <p class="kontakt-os-tekst">
+                    Kristina Ringkjøbing-Christiansen <br>
+                    Økonomi- og Administrationschef <br>
+                    T: 79 79 43 22 <br>
+                    M: 20 18 80 58 <br>
+                    E: kriri@trapholt.dk
+                </p>
+                <p class="kontakt-os-tekst">
+                    Steen Kjærulff Leth <br>
+                    Driftschef <br>
+                    T: 30 70 42 63 <br>
+                    E: stlet@trapholt.dk 
+                </p>
+            </div>
+            <div class="forskellige-kontakter">
+                <div class="first-kontakt">
+                    <p class="kontakter-tekst-title">Kunstfaglig</p>
+                    <p class="kontakt-os-tekst">
+                        Vera Westergaard <br>
+                        Udstillingschef <br>
+                        M: 21 72 03 33 <br>
+                        T: 79 79 43 38 <br>
+                        E: vw@trapholt.dk
+                    </p>
+                </div>
 
-            <p class="kontakt-os-tekst-title">Kunstfaglig</p>
-            <p class="kontakt-os-tekst">
-                Vera Westergaard <br>
-                Udstillingschef <br>
-                M: 21 72 03 33 <br>
-                T: 79 79 43 38 <br>
-                E: vw@trapholt.dk
-            </p>
+                <div class="second-kontakt">
+                    <p class="kontakter-tekst-title">Trapholt Designbutik</p>
+                    <p class="kontakt-os-tekst">
+                        Anja Mølgaard Hansen <br>
+                        Butikschef <br>
+                        M: 21 73 79 33 <br>
+                        E: amh@trapholt.dk <br>
+                    </p>
+                </div>
 
-            <p class="kontakt-os-tekst-title">Trapholt Designbutik</p>
-            <p class="kontakt-os-tekst">
-                Anja Mølgaard Hansen <br>
-                Butikschef <br>
-                M: 21 73 79 33 <br>
-                E: amh@trapholt.dk <br>
-            </p>
+                <div class="third-kontakt">
+                    <p class="kontakter-tekst-title">Café Gustav Lind Trapholt</p>
+                    <p class="kontakt-os-tekst">
+                        T: 41 41 80 99 <br>
+                        E: trapholt@gustavlind.dk <br>
+                    </p>
+                </div>
 
-            <p class="kontakt-os-tekst-title">Café Gustav Lind Trapholt</p>
-            <p class="kontakt-os-tekst">
-                T: 41 41 80 99 <br>
-                E: trapholt@gustavlind.dk <br>
-            </p>
+                <div class="fourth-kontakt">
+                    <p class="kontakter-tekst-title">Guider</p>
+                    <p class="kontakt-os-tekst">
+                        Nina Rise Schrøder <br>
+                        Projektleder, guide- <br>
+                        og frivilligkoordinator <br>
+                        M: 26 21 31 54 <br>
+                        T: 79 79 43 18 <br>
+                        E: nisch@trapholt.dk
+                    </p>
+                </div>
+            </div>
             
 
         </main>

@@ -12517,17 +12517,20 @@ ul a {
   font-size: 150px;
 }
 
-.shaping-a-pattern-body-first-section .shaping-a-pattern-body-first-section-text {
+.shaping-a-pattern-body-first-section {
   padding-left: 119px;
-  padding-right: 80px;
-  padding-top: 50px;
+  padding-top: 100px;
+  display: flex;
 }
-
-.shaping-a-pattern-body-first-section .shaping-a-pattern-body-first-section-text .shaping-a-pattern-body-first-section-paragraphl {
+.shaping-a-pattern-body-first-section .shaping-a-pattern-body-first-section-text {
+  padding-right: 40px;
+  padding-top: 40px;
+}
+.shaping-a-pattern-body-first-section .shaping-a-pattern-body-first-section-paragraph {
   line-height: 25px;
 }
 
-.shaping-a-pattern-body-first-section .first-shaping-a-pattern-body-image {
+.first-shaping-a-pattern-body-image {
   width: 900px;
   padding-right: 119px;
 }
@@ -12537,18 +12540,17 @@ ul a {
   padding-bottom: 100px;
   display: flex;
 }
-
 .shaping-a-pattern-body-second-section .shaping-a-pattern-body-second-section-text {
   padding-right: 119px;
   padding-left: 80px;
   padding-top: 100px;
 }
 
-.shaping-a-pattern-body-second-section .shaping-a-pattern-body-second-section-text .shaping-a-pattern-body-second-section-paragraph {
+.shaping-a-pattern-body-second-section-paragraph {
   line-height: 25px;
 }
 
-.shaping-a-pattern-body-second-section .shaping-a-pattern-body-second-section-image {
+.shaping-a-pattern-body-second-section-image {
   padding-left: 119px;
 }
 
@@ -12558,12 +12560,15 @@ ul a {
   padding-top: 100px;
   display: block;
 }
-
 .shaping-a-pattern-body-third-section-text .shaping-a-pattern-body-second-section-paragraph {
   line-height: 25px;
 }
 
 .first-shaping-a-pattern-body-image-small {
+  display: none;
+}
+
+.shaping-a-pattern-body-third-section-text-resolution {
   display: none;
 }
 
@@ -12582,6 +12587,9 @@ ul a {
     padding-top: 0;
     font-size: 14px;
   }
+  .shaping-a-pattern-body-second-section {
+    padding-bottom: 50px;
+  }
   .shaping-a-pattern-body-third-section-title {
     display: none;
   }
@@ -12592,6 +12600,7 @@ ul a {
     padding-left: 119px;
     padding-right: 119px;
     padding-bottom: 40px;
+    display: block;
   }
 }
 .section-1-cafe {
@@ -12605,7 +12614,7 @@ ul a {
 
 .cafe-logo-text {
   padding-left: 119px;
-  padding-top: 600px;
+  padding-top: 650px;
   color: #ffffff;
   font-size: 150px;
 }
@@ -12651,6 +12660,14 @@ ul a {
   padding-right: 119px;
 }
 
+@media all and (max-width: 1700px) {
+  .cafe-logo-text {
+    padding-left: 119px;
+    padding-top: 500px;
+    color: #ffffff;
+    font-size: 125px;
+  }
+}
 .om-trapholt-title {
   padding-left: 119px;
   padding-top: 100px;
@@ -12693,4 +12710,40 @@ ul a {
 
 .sidste-tekst {
   padding-bottom: 25px;
+}
+
+.kontakt-os-title {
+  padding-top: 100px;
+  padding-left: 119px;
+  font-size: 80px;
+}
+
+.kontakt-os-subtitle {
+  padding-left: 119px;
+  padding-bottom: 20px;
+}
+
+.ledelse {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 119px;
+  padding-right: 119px;
+}
+
+.kontakt-os-tekst-title {
+  font-weight: bold;
+  padding-left: 119px;
+}
+
+.kontakter-tekst-title {
+  font-weight: bold;
+}
+
+.forskellige-kontakter {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 119px;
+  padding-right: 119px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }/*# sourceMappingURL=main.css.map */
