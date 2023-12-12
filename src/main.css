@@ -12613,7 +12613,6 @@ ul a {
 .cafe-body-first-section {
   display: flex;
   padding-top: 100px;
-  padding-bottom: 50px;
 }
 
 .cafe-body-first-section .cafe-body-first-section-text {
@@ -12628,12 +12627,28 @@ ul a {
 .cafe-body-first-section .first-cafe-body-image {
   width: 800px;
   height: 510px;
-  padding-right: 119px;
+  padding-left: 100px;
 }
 
 .cafe-body-second-section .second-cafe-body-image {
   width: 50px;
   height: 10px;
+}
+
+.cafe-body-second-section .cafe-menu {
+  padding-left: 500px;
+  padding-top: 100px;
+  color: #050505;
+  font-size: 100px;
+}
+
+.cafe-body-second-section .cafe-menu-text {
+  padding-top: 30px;
+}
+
+.cafe-menu-overskrift {
+  padding-left: 119px;
+  padding-right: 119px;
 }
 
 .om-trapholt-title {
