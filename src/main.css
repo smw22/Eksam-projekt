@@ -12701,31 +12701,31 @@ ul a {
   height: 100vh;
 }
 
-.butik-logo {
+.butik-logo-text {
   padding-left: 119px;
-  padding-top: 600px;
+  padding-top: 500px;
   color: #ffffff;
   font-size: 150px;
 }
 
 .butik-text-først {
-  padding-left: 200px;
+  padding-left: 119px;
   padding-top: 50px;
   font-weight: bold;
   font-size: large;
 }
 
 .butik-overskrift {
-  padding-left: 200px;
+  padding-left: 119px;
   font-weight: bold;
 }
 
 .butik-text {
-  padding-left: 200px;
+  padding-left: 119px;
 }
 
 .butik-text-sidste-text {
-  padding-left: 200px;
+  padding-left: 119px;
   padding-bottom: 25px;
 }
 
