@@ -13,15 +13,17 @@
         <header class="sticky">
 
 
-            <div class="logo">
-                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 79 79">
-                    <g id="Rectangle_32" data-name="Rectangle 32" fill="#fff" stroke="#000" stroke-width="10">
-                    <rect width="79" height="79" stroke="none"/>
-                    <rect x="5" y="5" width="69" height="69" fill="none"/>
-                    </g>
-                </svg>
-                
-            </div>
+            <a href="index.html">
+                <div class="logo">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 79 79">
+                        <g id="Rectangle_32" data-name="Rectangle 32" fill="#fff" stroke="#000" stroke-width="10">
+                        <rect width="79" height="79" stroke="none"/>
+                        <rect x="5" y="5" width="69" height="69" fill="none"/>
+                        </g>
+                    </svg>
+                    
+                </div>
+            </a>
 
             <div class="nav">
                 <ul>
@@ -85,6 +87,27 @@
                 </div>
             </div>
 
+            
+            <div class="btn-group">
+                <button type="button" class="btn btn-dark" data-bs-toggle="dropdown" aria-expanded="false">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="20" viewBox="0 0 14 10">
+                        <path id="Rayitas-menu" d="M9,19H7V5H9V19M13,5H11V19h2V5m4,0H15V19h2Z" transform="translate(19 -7) rotate(90)" fill="#fff"/>
+                    </svg> 
+                </button>
+                <ul class="dropdown-menu dropdown-menu-end">
+                    <li class="menu-element"><a class="a2" href="besøg.html">Besøg</a></li>
+                    <li class="menu-element"> <a class="nav-link a2" href="#" data-bs-toggle="dropdown">Udstillinger</a>
+                        <ul class="submenu dropdown-menu">
+                            <li><a class="dropdown-item" href="kubeflex.html">test 1</a></li>
+                            <li class="dropdown-item"> test1</li>
+                        </ul>
+                    </li>
+                    <li class="menu-element"><a class="a2" href="">Tur til Trapholt</a></li>
+                    <li class="menu-element"><a class="a2" href="om-trapholt.html">Om Trapholt</a></li>
+                    <li class="menu-element"><a class="a2" href="kontakt-os.html">Kontakt Os</a></li>
+                </ul>
+            </div>
+
         </header>
 
         <main>
@@ -92,18 +115,18 @@
             <div class="section-1"> <!-- background image -->
                 
                 <div class="trapholt-subtitle-logo">
-                    <img src="../img/trapholt-logo-website.jpg" alt="">                    
+                    <img src="../img/trapholt-logo-website.jpg" alt="" class="trapholt-subtitle-logo-image">                    
                 </div>
             </div>
 
             
             <div class="first-display">  
                 <div class="first-display-image">
-                    <img src="../img/kubeflex.webp" alt="">
+                    <img src="../img/kubeflex.webp" alt="" class="kubeflex-forside-image">
                 </div>
                 <!-- læse over media tag til at forstå i main.scss  -->
                 <div class="first-display-image-small">
-                    <img src="../img/kubeflex.jpg" alt="">
+                    <img src="../img/kubeflex.jpg" alt="" class="kubeflex-forside-image">
                 </div>
                 <div class="first-display-text">
                     <h1 class="first-title display-2 m-0">KUBEFLEX</h1>
@@ -135,13 +158,30 @@
                 </div>
             </div>
 
+            <div class="second-display-resolution">  
+                <div class="second-display-image">
+                    <img src="../img/clay-and-paper.webp" alt="">
+                </div>
+                <div class="second-display-image-small">
+                    <img src="../img/clay-and-paper.jpg" alt="" class="clay-and-paper-forside-image">
+                </div>
+                <div class="second-display-text-resoultion">
+                    <h1 class="second-title display-2 m-0">CLAY AND PAPER</h1>
+                    <h2 class="second-subtitle display-5">Michael Kvium og Kjell Erik Killi-Olsen</h2>
+                    <p class="second-subtext">Udstillingen er en præsentation af helt nye værker fra de to internationalt 
+                        anerkendte kunstnere. Værkerne pryder museets hovedgade, hvor du på begge sider bliver opslugt af 
+                        store tankevækkende papirarbejder og udtryksfulde keramiske skulpturer.</p>
+                    <a href="clay-and-paper.html"><button type="button" class="btn btn-dark">Læs mere >></button></a>
+                </div>      
+            </div>
+
             
             <div class="third-display">
                 <div class="third-display-image">
                     <img src="../img/Nanna-Ditzel.webp" alt="">
                 </div>
                 <div class="third-display-image-small">
-                    <img src="../img/Nanna-Ditzel.jpg" alt="">
+                    <img src="../img/Nanna-Ditzel.jpg" alt="" class="nanna-ditzel-forside-image">
                 </div> 
                 <div class="third-display-text">
                     <h1 class="third-title display-2 m-0">NANNA DITZEL</h1>
@@ -173,12 +213,31 @@
                 </div>
             </div>
 
+            <div class="fourth-display-resolution">  
+                <div class="fourth-display-image">
+                    <img src="../img/things-matter.webp" alt="">
+                </div>
+                <div class="fourth-display-image-small">
+                    <img src="../img/things-matter.jpg" alt="" class="things-matter-forside-image">
+                </div>
+                <div class="fourth-display-text-resolution">
+                    <h1 class="fourth-title display-2 m-0">THINGS MATTER</h1>
+                    <h2 class="fourth-subtitle display-5">278 Borgere Kommenterer Kunst i det offentlige rum</h2>
+                    <p class="fourth-subtext">Hvad gør det ved vores selvforståelse, at kun 5 ud af 101 statuer i 
+                        København er af kvinder? Hvordan påvirkes vi af de skulpturer og monumenter, der står i 
+                        vores fælles offentlige rum? Og hvad ville vi ændre, hvis vi kunne? Disse diskussioner 
+                        har 278 borgere, kunstner Randi Samsonsen og Trapholt udforsket og omsat til en 5-meter 
+                        høj fællesskabt kunstinstallation.</p>
+                    <a href="things-matter.html"><button type="button" class="btn btn-dark">Læs mere >></button></a>
+                </div>
+            </div>
+
             <div class="fifth-display">
                 <div class="fifth-display-image">
                     <img src="../img/maria-torp.webp" alt="">
                 </div>
                 <div class="fifth-display-image-small">
-                    <img src="../img/maria-torp.jpg" alt="">
+                    <img src="../img/maria-torp.jpg" alt="" class="maria-torp-forside-image">
                 </div>  
                 <div class="fifth-display-text">
                     <h1 class="fifth-title display-2 m-0">SHAPING A PATTERN</h1>
@@ -197,7 +256,7 @@
 
 
         <footer>
-            <div class="footer-text bg-dark p-5">
+            <div class="footer-text bg-dark">
                 <div class="footer-text-first-menu text-white menus">
                     <h3 class="first-footer-title"> Åbningstider </h3>
                     <p class="first-footer-text">

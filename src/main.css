@@ -12004,8 +12004,8 @@ header {
 }
 
 .logo {
-  margin-left: 119px;
-  margin-top: 5px;
+  padding-left: 119px;
+  padding-top: 5px;
 }
 
 ul {
@@ -12082,6 +12082,7 @@ ul a {
 .footer-text {
   display: flex;
   justify-content: space-between;
+  padding: 3rem;
 }
 .footer-text .menus {
   padding: 40px 75px 40px 75px;
@@ -12115,38 +12116,18 @@ ul a {
   display: none;
 }
 
-@media all and (max-width: 1700px) {
-  .first-display-image {
-    display: none;
-  }
-  .first-display-image-small {
-    display: block;
-  }
-  .second-display-image {
-    display: none;
-  }
-  .second-display-image-small {
-    display: block;
-  }
-  .third-display-image {
-    display: none;
-  }
-  .third-display-image-small {
-    display: block;
-  }
-  .fourth-display-image {
-    display: none;
-  }
-  .fourth-display-image-small {
-    display: block;
-  }
-  .fifth-display-image {
-    display: none;
-  }
-  .fifth-display-image-small {
-    display: block;
-  }
+.btn-group {
+  display: none;
 }
+
+.second-display-resolution {
+  display: none;
+}
+
+.fourth-display-resolution {
+  display: none;
+}
+
 .section-1-kubeflex {
   background-image: url(../img/kubeflex.webp);
   background-repeat: no-repeat;
@@ -12207,35 +12188,6 @@ ul a {
   display: none;
 }
 
-@media all and (max-width: 1700px) {
-  .kubeflex-logo-text {
-    padding-left: 119px;
-    padding-top: 450px;
-    color: #ffffff;
-    font-size: 125px;
-  }
-  .first-kubeflex-body-image {
-    display: none;
-  }
-  .first-kubeflex-body-image-small {
-    display: block;
-    width: 600px;
-    padding-right: 119px;
-  }
-  .guidede-ture {
-    display: none;
-  }
-  .guidede-ture-resolution {
-    flex: none;
-    display: block;
-    padding-left: 119px;
-    padding-right: 119px;
-    padding-bottom: 50px;
-  }
-  .kubeflex-body-second-section {
-    padding-bottom: 40px;
-  }
-}
 .section-1-clay-and-paper {
   background-image: url(../img/clay-and-paper.webp);
   background-repeat: no-repeat;
@@ -12299,33 +12251,6 @@ ul a {
   display: none;
 }
 
-@media all and (max-width: 1700px) {
-  .clay-and-paper-logo-text {
-    padding-left: 119px;
-    padding-top: 450px;
-    color: #ffffff;
-    font-size: 125px;
-  }
-  .first-clay-and-paper-body-image {
-    display: none;
-  }
-  .clay-and-paper-body-first-section .clay-and-paper-body-first-section-text {
-    padding-top: 20px;
-  }
-  .first-clay-and-paper-body-image-small {
-    display: block;
-    width: 700px;
-    padding-right: 119px;
-  }
-  .clay-and-paper-body-second-section-image .second-clay-and-paper-body-image {
-    width: 400px;
-    height: 625px;
-  }
-  .clay-and-paper-body-third-section-image .third-clay-and-paper-body-image {
-    width: 775px;
-    height: 400px;
-  }
-}
 .section-1-nanna-ditzel {
   background-image: url(../img/Nanna-Ditzel.webp);
   background-repeat: no-repeat;
@@ -12382,27 +12307,6 @@ ul a {
   display: none;
 }
 
-@media all and (max-width: 1700px) {
-  .nanna-ditzel-logo-text {
-    padding-left: 119px;
-    padding-top: 350px;
-    color: #ffffff;
-    font-size: 120px;
-  }
-  .nanna-ditzel-body-second-section {
-    display: block;
-  }
-  .nanna-ditzel-body-first-section .nanna-ditzel-body-first-section-text {
-    padding-top: 35px;
-  }
-  .nanna-ditzel-body-second-section-image .second-nanna-ditzel-body-image {
-    width: 1281px;
-  }
-  .nanna-ditzel-body-second-section .nanna-ditzel-body-second-section-text {
-    padding-left: 119px;
-    padding-right: 119px;
-  }
-}
 .section-1-things-matter {
   background-image: url(../img/things-matter.webp);
   background-repeat: no-repeat;
@@ -12461,46 +12365,6 @@ ul a {
   display: none;
 }
 
-@media all and (max-width: 1700px) {
-  .things-matter-logo-text {
-    padding-left: 400px;
-    padding-top: 550px;
-    color: #ffffff;
-    font-size: 125px;
-  }
-  .things-matter-body-first-section {
-    display: block;
-  }
-  .things-matter-body-first-section .things-matter-body-first-section-text {
-    padding-right: 119px;
-  }
-  .things-matter-body-first-section .first-things-matter-body-image {
-    padding-left: 119px;
-    padding-right: 0;
-    width: 720px;
-  }
-  .things-matter-body-first-section .first-things-matter-body-image-small {
-    padding-left: 20px;
-    padding-right: 119px;
-    width: 800px;
-  }
-  .first-things-matter-body-image-small {
-    display: block;
-  }
-  .things-matter-body-first-section-image {
-    display: flex;
-  }
-  .things-matter-body-second-section .second-things-matter-body-image {
-    display: none;
-  }
-  .things-matter-body-second-section .things-matter-body-second-section-text {
-    padding-top: 0;
-    padding-left: 0;
-  }
-  .things-matter-body-second-section {
-    padding-top: 0;
-  }
-}
 .section-1-shaping-a-pattern {
   background-image: url(../img/maria-torp.webp);
   background-repeat: no-repeat;
@@ -12572,37 +12436,6 @@ ul a {
   display: none;
 }
 
-@media all and (max-width: 1700px) {
-  .shaping-a-pattern-logo-text {
-    padding-left: 119px;
-    padding-top: 425px;
-    color: #ffffff;
-    font-size: 125px;
-  }
-  .shaping-a-pattern-body-first-section .first-shaping-a-pattern-body-image {
-    width: 850px;
-    height: 400px;
-  }
-  .shaping-a-pattern-body-first-section .shaping-a-pattern-body-first-section-text {
-    padding-top: 0;
-    font-size: 14px;
-  }
-  .shaping-a-pattern-body-second-section {
-    padding-bottom: 50px;
-  }
-  .shaping-a-pattern-body-third-section-title {
-    display: none;
-  }
-  .shaping-a-pattern-body-third-section-paragraph {
-    display: none;
-  }
-  .shaping-a-pattern-body-third-section-text-resolution {
-    padding-left: 119px;
-    padding-right: 119px;
-    padding-bottom: 40px;
-    display: block;
-  }
-}
 .section-1-cafe {
   background-image: url(../img/cafe-baggrund.webp);
   background-repeat: no-repeat;
@@ -12684,14 +12517,6 @@ ul a {
   padding-left: 300px;
 }
 
-@media all and (max-width: 1700px) {
-  .cafe-logo-text {
-    padding-left: 119px;
-    padding-top: 500px;
-    color: #ffffff;
-    font-size: 150px;
-  }
-}
 .section-1-butik {
   background-image: url(../img/designbutik-1.webp);
   background-repeat: no-repeat;
@@ -12811,4 +12636,285 @@ ul a {
   padding-right: 119px;
   padding-top: 50px;
   padding-bottom: 50px;
+}
+
+@media all and (max-width: 1700px) {
+  .first-display-image {
+    display: none;
+  }
+  .first-display-image-small {
+    display: block;
+  }
+  .second-display-image {
+    display: none;
+  }
+  .second-display-image-small {
+    display: block;
+  }
+  .third-display-image {
+    display: none;
+  }
+  .third-display-image-small {
+    display: block;
+  }
+  .fourth-display-image {
+    display: none;
+  }
+  .fourth-display-image-small {
+    display: block;
+  }
+  .fifth-display-image {
+    display: none;
+  }
+  .fifth-display-image-small {
+    display: block;
+  }
+  .kubeflex-logo-text {
+    padding-left: 119px;
+    padding-top: 450px;
+    color: #ffffff;
+    font-size: 125px;
+  }
+  .first-kubeflex-body-image {
+    display: none;
+  }
+  .first-kubeflex-body-image-small {
+    display: block;
+    width: 600px;
+    padding-right: 119px;
+  }
+  .guidede-ture {
+    display: none;
+  }
+  .guidede-ture-resolution {
+    flex: none;
+    display: block;
+    padding-left: 119px;
+    padding-right: 119px;
+    padding-bottom: 50px;
+  }
+  .kubeflex-body-second-section {
+    padding-bottom: 40px;
+  }
+  .clay-and-paper-logo-text {
+    padding-left: 119px;
+    padding-top: 450px;
+    color: #ffffff;
+    font-size: 125px;
+  }
+  .first-clay-and-paper-body-image {
+    display: none;
+  }
+  .clay-and-paper-body-first-section .clay-and-paper-body-first-section-text {
+    padding-top: 20px;
+  }
+  .first-clay-and-paper-body-image-small {
+    display: block;
+    width: 700px;
+    padding-right: 119px;
+  }
+  .clay-and-paper-body-second-section-image .second-clay-and-paper-body-image {
+    width: 400px;
+    height: 625px;
+  }
+  .clay-and-paper-body-third-section-image .third-clay-and-paper-body-image {
+    width: 775px;
+    height: 400px;
+  }
+  .nanna-ditzel-logo-text {
+    padding-left: 119px;
+    padding-top: 350px;
+    color: #ffffff;
+    font-size: 120px;
+  }
+  .nanna-ditzel-body-second-section {
+    display: block;
+  }
+  .nanna-ditzel-body-first-section .nanna-ditzel-body-first-section-text {
+    padding-top: 35px;
+  }
+  .nanna-ditzel-body-second-section-image .second-nanna-ditzel-body-image {
+    width: 1281px;
+  }
+  .nanna-ditzel-body-second-section .nanna-ditzel-body-second-section-text {
+    padding-left: 119px;
+    padding-right: 119px;
+  }
+  .things-matter-logo-text {
+    padding-left: 400px;
+    padding-top: 550px;
+    color: #ffffff;
+    font-size: 125px;
+  }
+  .things-matter-body-first-section {
+    display: block;
+  }
+  .things-matter-body-first-section .things-matter-body-first-section-text {
+    padding-right: 119px;
+  }
+  .things-matter-body-first-section .first-things-matter-body-image {
+    padding-left: 119px;
+    padding-right: 0;
+    width: 720px;
+  }
+  .things-matter-body-first-section .first-things-matter-body-image-small {
+    padding-left: 20px;
+    padding-right: 119px;
+    width: 800px;
+  }
+  .first-things-matter-body-image-small {
+    display: block;
+  }
+  .things-matter-body-first-section-image {
+    display: flex;
+  }
+  .things-matter-body-second-section .second-things-matter-body-image {
+    display: none;
+  }
+  .things-matter-body-second-section .things-matter-body-second-section-text {
+    padding-top: 0;
+    padding-left: 0;
+  }
+  .things-matter-body-second-section {
+    padding-top: 0;
+  }
+  .shaping-a-pattern-logo-text {
+    padding-left: 119px;
+    padding-top: 425px;
+    color: #ffffff;
+    font-size: 125px;
+  }
+  .shaping-a-pattern-body-first-section .first-shaping-a-pattern-body-image {
+    width: 850px;
+    height: 400px;
+  }
+  .shaping-a-pattern-body-first-section .shaping-a-pattern-body-first-section-text {
+    padding-top: 0;
+    font-size: 14px;
+  }
+  .shaping-a-pattern-body-second-section {
+    padding-bottom: 50px;
+  }
+  .shaping-a-pattern-body-third-section-title {
+    display: none;
+  }
+  .shaping-a-pattern-body-third-section-paragraph {
+    display: none;
+  }
+  .shaping-a-pattern-body-third-section-text-resolution {
+    padding-left: 119px;
+    padding-right: 119px;
+    padding-bottom: 40px;
+    display: block;
+  }
+  .cafe-logo-text {
+    padding-left: 119px;
+    padding-top: 500px;
+    color: #ffffff;
+    font-size: 150px;
+  }
+}
+@media all and (max-width: 600px) {
+  .logo {
+    padding: 10px 0 10px 20px;
+  }
+  .icons {
+    padding-top: 18px;
+  }
+  .nav {
+    display: none;
+  }
+  .search {
+    width: 125px;
+    height: 38px;
+    justify-content: center;
+    justify-content: space-between;
+    margin: 0;
+  }
+  .menu-svg {
+    background-color: transparent;
+    color: transparent;
+  }
+  .btn-group {
+    display: block;
+    padding-top: 15px;
+    padding-right: 20px;
+  }
+  .btn-group .a2 {
+    color: #000000;
+    margin-left: 20px;
+  }
+  .btn-group .menu-element {
+    padding-top: 7px;
+  }
+  .btn-group .dropdown-menu {
+    padding-bottom: 12px;
+  }
+  .Udstillinger-dropdown {
+    text-align: center;
+  }
+  .menuer {
+    justify-content: center;
+  }
+  .trapholt-subtitle-logo {
+    padding-left: 20px;
+    padding-top: 125px;
+  }
+  .trapholt-subtitle-logo-image {
+    width: 275px;
+    height: 139px;
+  }
+  .first-display, .second-display, .third-display, .fourth-display, .fifth-display {
+    display: block;
+    padding: 20px;
+  }
+  .kubeflex-forside-image {
+    width: 325px;
+    padding-top: 10px;
+  }
+  .first-display .first-display-text {
+    padding: 0 0 10px 0;
+  }
+  .second-display {
+    display: none;
+  }
+  .second-display-resolution {
+    display: block;
+    padding: 20px;
+  }
+  .clay-and-paper-forside-image {
+    width: 325px;
+  }
+  .third-display .third-display-text {
+    padding: 0 0 10px 0;
+  }
+  .nanna-ditzel-forside-image {
+    width: 325px;
+  }
+  .things-matter-forside-image {
+    width: 325px;
+  }
+  .fourth-display {
+    display: none;
+  }
+  .fourth-display-resolution {
+    display: block;
+    padding: 20px;
+  }
+  .maria-torp-forside-image {
+    width: 325px;
+  }
+  .fifth-display .fifth-display-text {
+    padding: 0 0 10px 0;
+  }
+  .footer-text {
+    display: block;
+    padding: 0;
+  }
+  .footer-text .menus {
+    padding: 10px 0 0 20px;
+  }
+  .footer-text .footer-text-fourth-menu {
+    padding-bottom: 15px;
+  }
 }/*# sourceMappingURL=main.css.map */
