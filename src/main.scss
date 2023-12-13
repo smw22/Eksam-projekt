@@ -256,6 +256,9 @@ ul{
 .guidede-ture-resolution{
     display: none;
 }
+.kubeflex-body-first-section-resolution{ //mobil version
+    display: none;
+}
 
 
 // Clay and paper side
@@ -388,7 +391,13 @@ ul{
     }
 }
 
+//Laptop version
+
 .first-nanna-ditzel-body-image-small{
+    display: none;
+}
+
+.nanna-ditzel-body-second-section-resolution{ //mobil version
     display: none;
 }
 
@@ -1035,6 +1044,7 @@ ul{
         justify-content: center;
     }
 
+
     //logo billed og tekst
     .trapholt-subtitle-logo {
         padding-left: 20px;
@@ -1051,8 +1061,8 @@ ul{
         padding: 20px;
     }
     .kubeflex-forside-image{
-        width: 325px;
-        padding-top: 10px;
+        width: 100%;
+        padding: 10 20 0 20;
     }
     .first-display .first-display-text{
         padding: 0 0 10px 0;
@@ -1066,18 +1076,21 @@ ul{
         padding: 20px;
     }
     .clay-and-paper-forside-image {
-        width: 325px;
+        width: 100%;
+        padding: 10 20 0 20;
     }
 
     .third-display .third-display-text{
         padding: 0 0 10px 0;
     }
     .nanna-ditzel-forside-image{
-        width: 325px;
+        width: 100%;
+        padding: 10 20 0 20;
     }
 
     .things-matter-forside-image{
-        width: 325px;
+        width: 100%;
+        padding: 10 20 0 20;
     }
     .fourth-display{
         display: none;
@@ -1088,7 +1101,8 @@ ul{
     }
 
     .maria-torp-forside-image{
-        width: 325px;
+        width: 100%;
+        padding: 10 20 0 20;
     }
     .fifth-display .fifth-display-text{
         padding: 0 0 10px 0;
@@ -1108,5 +1122,356 @@ ul{
 
 
     // Besøg os side
+    .first-section-text, .second-section-text, .third-section-text {
+        display: block;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .third-section-text{
+        padding-top: 0;
+    }
+    .besøg-underskrift{
+        padding-left: 20px;
+    }
+    .besøg-overskrift{
+        padding-left: 20px;
+        font-weight: bold;
+    }
+    .besøg-tekst{
+        padding-left: 20px;
+    }
+    .besøg-logo-text {
+        padding-left: 20px;
+        padding-top: 20px;
+        font-size: 40px;
+    }
+    .besøg-side-image {
+        padding-left: 20px;
+        width: 100%;
+        padding-right: 20px;
+    }
+
+    // Om Trapholt side
+    .om-trapholt-title {
+        padding-left: 20px;
+        padding-top: 100px;
+        font-size: 40px;
+    }
     
+    .om-trapholt-second-title{
+        padding-left: 20px;
+        padding-right: 20px;
+    
+    }
+    
+    .om-trapholt-text {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .video {
+        padding-left: 20px;
+        width: 100%;
+        padding-right: 20px;
+        padding-bottom: 20px;
+    }
+
+    //Kontakt os side
+    .kontakt-os-title{
+        padding-top: 100px;
+        padding-left: 20px;
+        font-size: 40px;
+    }
+    
+    .kontakt-os-subtitle{
+        padding-left: 20px;
+        padding-bottom: 20px;
+    }
+    .ledelse{
+        display: block;
+        justify-content: space-between;
+        padding-left: 20px;
+        padding-right: 119px;
+    }
+    .kontakt-os-tekst-title{
+        font-weight: bold;
+        padding-left: 20px;
+    }
+    .kontakter-tekst-title {
+        font-weight: bold;
+    }
+    .forskellige-kontakter{
+        display: block;
+        justify-content: space-between;
+        padding: 20px;
+    }
+
+    //kubeflex side
+    .section-1-kubeflex{
+        display: none;
+    }
+
+    .kubeflex-body-first-section{
+        display: none;
+    }
+
+    .kubeflex-body-first-section-resolution{
+        display: block;
+    }
+
+    .first-kubeflex-body-image-small{
+        display: block;
+        padding: 20px 20px 0 20px;
+        width: 100%;
+    }
+
+    .kubeflex-body-first-section-text-top{
+        padding: 100px 20px 0 20px;
+    }
+
+    .kubeflex-body-first-section-text-bottom{
+        padding: 20px;
+    }
+    
+    
+    
+    .kubeflex-body-second-section{
+        display: block;
+        padding-top: 0;
+        padding-bottom: 0;
+    
+        .kubeflex-body-second-section-text{
+            padding-right: 20px;
+            padding-left: 20px;
+            padding-top: 20px;
+        }
+        .kubeflex-body-second-section-image{
+            padding-left: 0;
+        }
+    }
+    .second-kubeflex-body-image{
+        padding: 20px 20px 0 20px;
+        width: 100%;
+    }
+    .guidede-ture-resolution{
+        display: block;
+        padding: 20px;
+    }
+    
+    //Clay and Paper side
+    .section-1-clay-and-paper{
+        display: none;
+    }
+
+    .first-clay-and-paper-body-image-small{
+        display: block;
+        padding: 20px;
+        width: 100%;
+    }
+    
+    .clay-and-paper-body-first-section{
+        display: block;
+        padding-top: 0;
+        padding-bottom: 0;
+    
+        .clay-and-paper-body-first-section-text{
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 100px;
+        }
+    }
+
+    .second-clay-and-paper-body-image{
+        display: none;
+    }
+    
+    
+    .clay-and-paper-body-second-section{
+        display: flex;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    
+        .clay-and-paper-body-second-section-text{
+            padding-right: 20px;
+            padding-left: 20px;
+    
+            .clay-and-paper-body-second-section-paragraph{
+                line-height: 25px;
+            }
+        }
+        .clay-and-paper-body-second-section-image{
+            padding-left: 0;
+        }
+        .second-clay-and-paper-body-image{
+            width: 600px;
+        }
+        .third-clay-and-paper-body-image{
+            width: 100%;
+        }
+    }
+
+    // Nanna Ditzel side
+    .section-1-nanna-ditzel{
+        display: none;
+    }
+    
+    .first-nanna-ditzel-body-image{
+        display: none;
+    }
+    .first-nanna-ditzel-body-image-small{
+        display: block;
+        width: 100%;
+        padding: 20px;
+    }
+    
+    .nanna-ditzel-body-first-section{
+        display: block;
+        padding-top: 0;
+        padding-bottom: 0;
+    
+        .nanna-ditzel-body-first-section-text{
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 100px;
+        }
+        
+    }
+    
+    
+    .nanna-ditzel-body-second-section{
+        display: none;
+    }
+
+    .nanna-ditzel-body-second-section-resolution{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        display: block;
+    
+        .nanna-ditzel-body-second-section-text{
+            padding-right: 20px;
+            padding-left: 20px;
+            padding-top: 20px;
+    
+            .nanna-ditzel-body-second-section-paragraph{
+                line-height: 25px;
+            }
+        }
+        .second-nanna-ditzel-body-image{
+            padding: 20px;
+            width: 100%;
+        }
+    }
+    
+    // Things Matter side
+    .section-1-things-matter{
+        display: none;
+    }
+    
+    .first-things-matter-body-image{
+        display: block;
+    }
+    .first-things-matter-body-image-small{
+        display: block;
+        width: 100%;
+        padding: 20px;
+    }
+
+    .things-matter-body-first-section{
+        display: none;
+    }
+
+    .things-matter-body-first-section-resolution{
+        display: block;
+        padding-top: 100px;
+        padding-bottom: 0;
+    
+        .things-matter-body-first-section-text{
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 0;
+        }
+        .first-things-matter-body-image{
+            width: 100%;
+            padding: 0 0 20px 0;
+        }
+    }
+    
+    
+    .things-matter-body-second-section{
+        padding-top: 0;
+        padding-bottom: 20px;
+        display: block;
+    
+        .things-matter-body-second-section-text{
+            padding-right: 20px;
+            padding-left: 20px;
+            padding-top: 0;
+        }
+    }
+
+    //Shaping a pattern side
+    .section-1-shaping-a-pattern{
+        display: none;
+    }
+    
+    .shaping-a-pattern-body-first-section {
+        padding-left: 0;
+        padding-top: 100px;
+        display: block;
+        .shaping-a-pattern-body-first-section-text{
+            padding-right: 20px;
+            padding-left: 20px;
+            padding-top: 0;
+        }
+        .first-shaping-a-pattern-body-image {
+            padding-left: 20px;
+            padding-right: 20px;
+            width: 100%;
+            height: 300px;
+        }
+    }
+      
+    .shaping-a-pattern-body-second-section {
+        display: none;
+    }
+
+    .shaping-a-pattern-body-second-section-resolution {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        display: block;
+        .shaping-a-pattern-body-second-section-image{
+            padding: 0;
+        }
+        .shaping-a-pattern-body-second-section-text {
+            padding-right: 20px;
+            padding-left: 20px;
+            padding-top: 20px;
+        }
+    }
+    
+    .shaping-a-pattern-body-second-section-image{
+        padding: 0;
+    }
+    .second-shaping-a-pattern-body-image {
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 100%;
+    }
+
+
+
+    .shaping-a-pattern-body-third-section-text {
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-top: 20px;
+        display: block;
+    }
+      
+      .first-shaping-a-pattern-body-image-small {
+        display: none;
+    }
+      .shaping-a-pattern-body-third-section-text-resolution{
+        display: block;
+        padding: 0 20px 20px 20px;
+    }
 }
