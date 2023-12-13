@@ -989,6 +989,7 @@ ul{
 
 @media all and (max-width: 600px) {
     //index side
+
     //header
     .logo{
         padding: 10px 0 10px 20px;
@@ -1034,7 +1035,7 @@ ul{
         justify-content: center;
     }
 
-
+    //logo billed og tekst
     .trapholt-subtitle-logo {
         padding-left: 20px;
         padding-top: 125px;
@@ -1043,6 +1044,8 @@ ul{
         width: 275px;
         height: 139px;
     }
+
+    //udstillinger (forside)
     .first-display, .second-display, .third-display, .fourth-display, .fifth-display{
         display: block;
         padding: 20px;
@@ -1091,14 +1094,19 @@ ul{
         padding: 0 0 10px 0;
     }
 
+    //footer forside
     .footer-text{
         display: block;
         padding: 0;
     }
     .footer-text .menus {
-        padding: 10px 0 0 20px;
+        padding: 20px 0 0 20px;
     }
     .footer-text .footer-text-fourth-menu{
         padding-bottom: 15px;
     }
+
+
+    // Besøg os side
+    
 }
