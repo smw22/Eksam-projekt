@@ -13050,6 +13050,9 @@ ul a {
     width: 100%;
     padding-right: 20px;
   }
+  .third-subsection-text, .fourth-subsection-text, .fifth-subsection-text, .seventh-subsection-text, .eight-subsection-text, .nineth-subsection-text, .tenth-subsection-text, .eleventh-subsection-text {
+    width: 100%;
+  }
   .om-trapholt-title {
     padding-left: 20px;
     padding-top: 100px;
