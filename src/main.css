@@ -12463,6 +12463,7 @@ ul a {
 .cafe-body-first-section {
   display: flex;
   padding-top: 100px;
+  justify-content: space-between;
 }
 
 .cafe-body-first-section .cafe-body-first-section-text {
@@ -12477,7 +12478,8 @@ ul a {
 .cafe-body-first-section .first-cafe-body-image {
   width: 800px;
   height: 510px;
-  padding-left: 100px;
+  padding-left: 0;
+  padding-right: 119px;
 }
 
 .cafe-body-second-section .second-cafe-body-image {
@@ -12523,6 +12525,10 @@ ul a {
 
 .cafe-bestil-bord {
   padding-left: 300px;
+}
+
+.cafe-body-first-section-resolution {
+  display: none;
 }
 
 .section-1-butik {
@@ -12856,7 +12862,7 @@ ul a {
     padding-left: 119px;
     padding-top: 500px;
     color: #ffffff;
-    font-size: 150px;
+    font-size: 125px;
   }
 }
 @media all and (max-width: 600px) {
@@ -13257,5 +13263,93 @@ ul a {
   .shaping-a-pattern-body-third-section-text-resolution {
     display: block;
     padding: 0 20px 20px 20px;
+  }
+  .section-1-cafe {
+    display: none;
+  }
+  .cafe-body-first-section-resolution {
+    display: block;
+  }
+  .cafe-body-first-section {
+    display: none;
+  }
+  .cafe-body-first-section-text {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .first-cafe-body-image {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .second-cafe-body-image {
+    width: 100%;
+    padding: 100px 0 20px 0;
+  }
+  .cafe-body-second-section .cafe-menu {
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    color: #050505;
+    font-size: 50px;
+  }
+  .cafe-body-second-section .cafe-menu-text {
+    padding-top: 10px;
+  }
+  .cafe-menu-overskrift {
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+  }
+  .cafe-overskrift {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bold;
+  }
+  .cafe-text-first {
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .cafe-text {
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 50px;
+  }
+  .cafe-text-sidste-text {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 25px;
+  }
+  .cafe-bestil-bord {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .section-1-butik {
+    display: none;
+  }
+  .butik-text-først {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 100px;
+    font-weight: bold;
+    font-size: large;
+  }
+  .butik-overskrift {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bold;
+  }
+  .butik-text {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .butik-text-sidste-text {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 25px;
+  }
+  .butik-text .butik-text-sidste-text {
+    line-height: 25px;
   }
 }/*# sourceMappingURL=main.css.map */
