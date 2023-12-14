@@ -96,17 +96,27 @@
                 </button>
                 <ul class="dropdown-menu dropdown-menu-end">
                     <li class="menu-element"><a class="a2" href="besøg.html">Besøg</a></li>
-                    <li class="menu-element"> <a class="nav-link a2" href="#" data-bs-toggle="dropdown">Udstillinger</a>
-                        <ul class="submenu dropdown-menu">
-                            <li><a class="dropdown-item" href="kubeflex.html">test 1</a></li>
-                            <li><a class="dropdown-item" href="clay-and-paper.html">test 1</a></li>
+
+                    <li class="menu-element dropdown"> <!-- Add 'dropdown' class here -->
+                        <a class="a2" href="#" role="button" id="udstillingerDropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Udstillinger
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="udstillingerDropdown">
+                            <!-- Submenu items for Udstillinger -->
+                            <li><a class="a2" href="#">Submenu Item 1</a></li>
+                            <li><a class="a2" href="#">Submenu Item 2</a></li>
+                            <!-- Add more submenu items as needed -->
                         </ul>
                     </li>
-                    <li class="menu-element"><a class="a2" href="">Tur til Trapholt</a></li>
+
+                    <li class="menu-element"><a class="a2" href="#">Tur til Trapholt</a></li>
+
                     <li class="menu-element"><a class="a2" href="om-trapholt.html">Om Trapholt</a></li>
                     <li class="menu-element"><a class="a2" href="kontakt-os.html">Kontakt Os</a></li>
                 </ul>
             </div>
+
+            
 
 
         </header>
