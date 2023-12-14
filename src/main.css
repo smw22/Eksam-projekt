@@ -12325,7 +12325,7 @@ ul a {
 }
 
 .things-matter-logo-text {
-  padding-left: 600px;
+  padding-left: 119px;
   padding-top: 700px;
   color: #ffffff;
   font-size: 150px;
@@ -12642,7 +12642,6 @@ ul a {
 
 .first-section-text {
   display: flex;
-  justify-content: space-between;
   padding-top: 20px;
 }
 .first-section-text .second-subsection-text {
@@ -12655,6 +12654,14 @@ ul a {
 }
 .second-section-text .sixth-subsection-text {
   padding-right: 119px;
+}
+
+.besøg-underskrift.space-between {
+  padding-left: 350px;
+}
+
+.besøg-tekst.space-between {
+  padding-left: 350px;
 }
 
 .third-section-text {
@@ -12847,7 +12854,7 @@ ul a {
     padding-right: 119px;
   }
   .things-matter-logo-text {
-    padding-left: 400px;
+    padding-left: 119px;
     padding-top: 550px;
     color: #ffffff;
     font-size: 125px;
@@ -12921,6 +12928,13 @@ ul a {
     color: #ffffff;
     font-size: 125px;
   }
+  .first-cafe-body-image {
+    width: 100%;
+    padding-right: 119px;
+  }
+  .second-cafe-body-image {
+    width: 100%;
+  }
 }
 @media all and (max-width: 600px) {
   .logo {
@@ -12963,6 +12977,9 @@ ul a {
   }
   .menuer {
     justify-content: center;
+  }
+  .bold-text {
+    font-weight: bold;
   }
   .trapholt-subtitle-logo {
     padding-left: 20px;
@@ -13045,6 +13062,12 @@ ul a {
     font-weight: bold;
   }
   .besøg-tekst {
+    padding-left: 20px;
+  }
+  .besøg-underskrift.space-between {
+    padding-left: 20px;
+  }
+  .besøg-tekst.space-between {
     padding-left: 20px;
   }
   .besøg-logo-text {

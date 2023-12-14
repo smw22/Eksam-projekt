@@ -25,7 +25,7 @@
                 </div>
             </a>
 
-            <div class="nav">
+            <div class="nav">  
                 <ul>
                     <li>
                         <div class="dropdown first-dropdown">
@@ -79,7 +79,7 @@
             <div class="icons">
                 <div class="search bg-white">
                     <div class="search-text">Search... </div>
-                    <div class="search-icon">
+                    <div class="search-icon">  <!-- magnify icon til search -->
                         <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 30.7 30.7">
                         <path id="magnify_1_" data-name="magnify (1)" d="M14.4,3a11.41,11.41,0,0,1,8.666,18.824l.474.474h1.386L33.7,31.069,31.069,33.7,22.3,24.929V23.543l-.474-.474A11.406,11.406,0,1,1,14.4,3m0,3.509A7.894,7.894,0,1,0,22.3,14.4,7.862,7.862,0,0,0,14.4,6.509Z" transform="translate(-3 -3)"/>
                         </svg>
@@ -95,8 +95,15 @@
                     </svg> 
                 </button>
                 <ul class="dropdown-menu dropdown-menu-end">
-                    <li class="menu-element"><a class="a2" href="besøg.html">Besøg</a></li>
-                    <li class="menu-element"><a class="a2" href="#">← Udstillinger </a></li>
+                    <li class="menu-element"><a class="a2 bold-text" href="besøg.html">Besøg</a></li>
+                    <li class="menu-element"><a class="a2 bold-text" href="#">← Udstillinger </a></li>
+                    <li class="menu-element"><a class="a2" href="kubeflex.html">Kubeflex</a></li>
+                    <li class="menu-element"><a class="a2" href="clay-and-paper.html">Clay and paper</a></li>
+                    <li class="menu-element"><a class="a2" href="nanna-ditzel.html">Nanna Ditzel</a></li>
+                    <li class="menu-element"><a class="a2" href="things-matter.html">Things Matter</a></li>
+                    <li class="menu-element"><a class="a2" href="shaping-a-pattern.html">Shaping a pattern</a></li>
+
+                    <!-- Jeg kunne ikke tilføj en dropdown submenu til mobil version (Udstillinger skulle have en dropdown menu med alle de forskellige udstillinger (kubeflex, Nanna Ditzel...)i den dropdown menu med menuer) -->
 
                     <!-- <li>
                         <div class="btn-group dropstart">
@@ -106,15 +113,18 @@
                             <ul class="dropdown-menu">
                                 <li class="menu-element"><a class="a2" href="kubeflex.html">Kubeflex</a></li>
                                 <li class="menu-element"><a class="a2" href="clay-and-paper.html">Clay and Paper</a></li>
+                                <li class="menu-element"><a class="a2" href="nanna-ditzel.html">Nanna Ditzel</a></li>
+                                <li class="menu-element"><a class="a2" href="things-matter.html">Things Matter</a></li>
+                                <li class="menu-element"><a class="a2" href="shaping-a-pattern.html">Shaping a pattern</a></li>
                             </ul>
                           </div>
                     </li> -->
 
-                    <li class="menu-element"><a class="a2" href="#">← Tur til Trapholt </a></li>
+                    <li class="menu-element"><a class="a2 bold-text" href="#">← Tur til Trapholt </a></li>
                     <li class="menu-element"><a class="a2" href="cafe.html">Cafe Gustav Lind</a></li>
                     <li class="menu-element"><a class="a2" href="design-butik.html">Designbutik</a></li>
-                    <li class="menu-element"><a class="a2" href="om-trapholt.html">Om Trapholt</a></li>
-                    <li class="menu-element"><a class="a2" href="kontakt-os.html">Kontakt Os</a></li>
+                    <li class="menu-element"><a class="a2 bold-text" href="om-trapholt.html">Om Trapholt</a></li>
+                    <li class="menu-element"><a class="a2 bold-text" href="kontakt-os.html">Kontakt Os</a></li>
                 </ul>
             </div>
 
@@ -137,7 +147,7 @@
                 <div class="first-display-image">
                     <img src="../img/kubeflex.webp" alt="" class="kubeflex-forside-image">
                 </div>
-                <!-- læse over media tag til at forstå i main.scss  -->
+                <!--Billeder til brugere af bærbare computere (ændre størrelsen på dem, fordi opløsningen på bærbare computere stiger til 125%, og det ser ikke godt ud med lange billeder)(er i media max:1700px) De er i de fleste sider-->
                 <div class="first-display-image-small">
                     <img src="../img/kubeflex.jpg" alt="" class="kubeflex-forside-image">
                 </div>
@@ -178,7 +188,9 @@
                 <div class="second-display-image-small">
                     <img src="../img/clay-and-paper.jpg" alt="" class="clay-and-paper-forside-image">
                 </div>
-                <div class="second-display-text-resoultion">
+
+
+                <div class="second-display-text-resoultion">   <!-- Til mobil version (så billeder og tekster er i orden(billeder skal være før teksten)) -->
                     <h1 class="second-title display-2 m-0">CLAY AND PAPER</h1>
                     <h2 class="second-subtitle display-5">Michael Kvium og Kjell Erik Killi-Olsen</h2>
                     <p class="second-subtext">Udstillingen er en præsentation af helt nye værker fra de to internationalt 
@@ -226,7 +238,7 @@
                 </div>
             </div>
 
-            <div class="fourth-display-resolution">  
+            <div class="fourth-display-resolution">  <!-- Til mobil version (så billeder og tekster er i orden(billeder skal være før teksten)) -->
                 <div class="fourth-display-image">
                     <img src="../img/things-matter.webp" alt="">
                 </div>

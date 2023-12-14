@@ -327,10 +327,13 @@ ul{
     }
 }
 
+// bærbare computere
+
 .first-clay-and-paper-body-image-small{
     display: none;
 }
 
+// de andre udstillinger har en lignende stil (de ligner kubeflex stilen)
 
 // Nanna Ditzel side
 
@@ -391,7 +394,7 @@ ul{
     }
 }
 
-//Laptop version
+// bærbare computere
 
 .first-nanna-ditzel-body-image-small{
     display: none;
@@ -414,7 +417,7 @@ ul{
 }
 
 .things-matter-logo-text {
-    padding-left: 600px;
+    padding-left: 119px;
     padding-top: 700px;
     color:#ffffff;
     font-size: 150px;
@@ -747,7 +750,6 @@ ul{
 
 .first-section-text{
     display: flex;
-    justify-content: space-between;
     padding-top: 20px;
     .second-subsection-text{
         padding-right: 119px;
@@ -762,6 +764,12 @@ ul{
     }
 }
 
+.besøg-underskrift.space-between{
+    padding-left: 350px;
+}
+.besøg-tekst.space-between{
+    padding-left: 350px;
+}
 .third-section-text{
     display: flex;
     padding-top: 50px;
@@ -841,6 +849,10 @@ ul{
     padding-top: 50px;
     padding-bottom: 50px;
 }
+
+
+
+// Bærbare computere
 
 
 @media all and (max-width: 1700px) {
@@ -972,7 +984,7 @@ ul{
     //Things matter side
 
     .things-matter-logo-text {
-        padding-left: 400px;
+        padding-left: 119px;
         padding-top: 550px;
         color:#ffffff;
         font-size: 125px;
@@ -1052,9 +1064,18 @@ ul{
         color: #ffffff;
         font-size: 125px;
     }
+
+    .first-cafe-body-image{
+        width: 100%;
+        padding-right: 119px;
+    }
+    .second-cafe-body-image{
+        width: 100%;
+    }
     
 }
 
+// Mobil version 
 
 @media all and (max-width: 600px) {
     //index side
@@ -1102,6 +1123,9 @@ ul{
     }
     .menuer{
         justify-content: center;
+    }
+    .bold-text{
+        font-weight: bold;
     }
 
     //logo billed og tekst
@@ -1197,6 +1221,13 @@ ul{
         font-weight: bold;
     }
     .besøg-tekst{
+        padding-left: 20px;
+    }
+
+    .besøg-underskrift.space-between{
+        padding-left: 20px;
+    }
+    .besøg-tekst.space-between{
         padding-left: 20px;
     }
     .besøg-logo-text {
