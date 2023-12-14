@@ -440,6 +440,11 @@ ul{
     }
 }
 
+.things-matter-body-first-section-images{
+    display: flex;
+    width: 100%;
+}
+
 
 .things-matter-body-second-section{
     padding-top: 100px;
@@ -498,7 +503,7 @@ ul{
         padding-right: 40px;
         padding-top: 40px;
     }
-    .shaping-a-pattern-body-first-section-paragraph {
+    .shaping-a-pattern-body-first-section-paragraph, .shaping-a-pattern-body-second-section-paragraph {
         line-height: 25px;
       }
   }
@@ -986,7 +991,7 @@ ul{
     .things-matter-body-first-section .first-things-matter-body-image-small {
         padding-left: 20px;
         padding-right: 119px;
-        width: 800px;
+        width: 100%;
     }
     .first-things-matter-body-image-small{
         display: block;
@@ -1014,16 +1019,19 @@ ul{
         font-size: 125px;
     }
       .shaping-a-pattern-body-first-section .first-shaping-a-pattern-body-image {
-        width: 850px;
-        height: 400px;
+        width: 800px;
+        height: 425px;
     }
       .shaping-a-pattern-body-first-section .shaping-a-pattern-body-first-section-text {
         padding-top: 0;
-        font-size: 14px;
     }
       .shaping-a-pattern-body-second-section{
           padding-bottom: 50px;
     }
+    .second-shaping-a-pattern-body-image{
+        width: 600px
+    }
+
       .shaping-a-pattern-body-third-section-title {
         display: none;
     }
@@ -1482,7 +1490,7 @@ ul{
             padding-left: 20px;
             padding-right: 20px;
             width: 100%;
-            height: 250px;
+            height: 225px;
         }
     }
       
@@ -1597,9 +1605,9 @@ ul{
         padding-bottom: 25px;
     }
 
-    .cafe-bestil-bord{
-        padding-left: 20px;
-        padding-right: 20px;
+    .cafe-button{
+        justify-content: center;
+        padding: 0 20px 40px 20px;
     }
 
     // Butik side
