@@ -468,6 +468,10 @@ ul{
     display: none;
 }
 
+.things-matter-body-first-section-resolution{
+    display: none;
+}
+
 // Shaping a Pattern side
 
 .section-1-shaping-a-pattern{
@@ -540,7 +544,9 @@ ul{
     display: none;
   }
   
-
+  .shaping-a-pattern-body-second-section-resolution{
+    display: none;
+  }
   
 // café side
   
@@ -621,9 +627,12 @@ ul{
     padding-left: 300px;
     padding-bottom: 25px;
   }
-
-  .cafe-bestil-bord{
+  .over-cafe{
+    padding-bottom: 0;
+  }
+  .cafe-button{
     padding-left: 300px;
+    padding-bottom: 40px;
   }
 
   .cafe-body-first-section-resolution{
@@ -632,47 +641,67 @@ ul{
 
   // Designbutik side
 
-  .section-1-butik{
+    .section-1-butik{
     background-image: url(../img/designbutik-1.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
     height: 100vh;
-  }
+    }
+
+    .butik-body{
+    display: flex;
+    justify-content: space-between;
+    }
   
-  .butik-logo-text{
+    .butik-logo-text{
     padding-left: 119px;
     padding-top: 500px;
     color:#ffffff;
     font-size: 150px;
-  }
+    }
+
+    .butik-tekst{
+        padding-right: 50px;
+    }
+
+    .first-butik-image{
+        padding-right: 119px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
   
-  .butik-text-først{ 
+    .butik-text-først{ 
     padding-left: 119px;
     padding-top: 50px;
     font-weight: bold;
     font-size: large;
     
-  }
+    }
 
-  .butik-overskrift{
+    .butik-overskrift{
     padding-left: 119px;
     font-weight: bold;
-}
+    }
 
-  .butik-text{
+    .butik-text{
     padding-left: 119px;
-  }
+    }
 
-  .butik-text-sidste-text{
+    .butik-text-sidste-text{
     padding-left: 119px;
     padding-bottom: 25px;
-  }
+    }
 
-  .butik-text .butik-text-sidste-text{
+    .butik-button{
+        padding-left: 119px;
+        padding-bottom: 40px;
+      }
+
+    .butik-text .butik-text-sidste-text{
     line-height: 25px;
-  }
+    }
 
 
 // Om Trapholt side
@@ -731,6 +760,7 @@ ul{
 .third-section-text{
     display: flex;
     padding-top: 50px;
+    padding-bottom: 50px;
     .eleventh-subsection-text{
         padding-right: 119px;
     }
@@ -756,6 +786,23 @@ ul{
 .sidste-tekst{
     padding-bottom: 25px;
 }
+
+.third-subsection-text{
+    width: 40%;
+}
+
+.fourth-subsection-text, .fifth-subsection-text{
+    width: 50%;
+}
+
+.seventh-subsection-text, .eight-subsection-text, .nineth-subsection-text, .tenth-subsection-text{
+    width: 30%;
+}
+
+.eleventh-subsection-text{
+    width: 40%;
+}
+
 
 // kontakt os side
 .kontakt-os-title{
@@ -1564,7 +1611,16 @@ ul{
         font-size: large;
         
     }
+
+    .butik-body{
+        display: block;
+    }
     
+    .first-butik-image{
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
     .butik-overskrift{
         padding-left: 20px;
         padding-right: 20px;

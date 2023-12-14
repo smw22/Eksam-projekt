@@ -12373,6 +12373,10 @@ ul a {
   display: none;
 }
 
+.things-matter-body-first-section-resolution {
+  display: none;
+}
+
 .section-1-shaping-a-pattern {
   background-image: url(../img/maria-torp.webp);
   background-repeat: no-repeat;
@@ -12441,6 +12445,10 @@ ul a {
 }
 
 .shaping-a-pattern-body-third-section-text-resolution {
+  display: none;
+}
+
+.shaping-a-pattern-body-second-section-resolution {
   display: none;
 }
 
@@ -12523,8 +12531,13 @@ ul a {
   padding-bottom: 25px;
 }
 
-.cafe-bestil-bord {
+.over-cafe {
+  padding-bottom: 0;
+}
+
+.cafe-button {
   padding-left: 300px;
+  padding-bottom: 40px;
 }
 
 .cafe-body-first-section-resolution {
@@ -12540,11 +12553,26 @@ ul a {
   height: 100vh;
 }
 
+.butik-body {
+  display: flex;
+  justify-content: space-between;
+}
+
 .butik-logo-text {
   padding-left: 119px;
   padding-top: 500px;
   color: #ffffff;
   font-size: 150px;
+}
+
+.butik-tekst {
+  padding-right: 50px;
+}
+
+.first-butik-image {
+  padding-right: 119px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .butik-text-først {
@@ -12566,6 +12594,11 @@ ul a {
 .butik-text-sidste-text {
   padding-left: 119px;
   padding-bottom: 25px;
+}
+
+.butik-button {
+  padding-left: 119px;
+  padding-bottom: 40px;
 }
 
 .butik-text .butik-text-sidste-text {
@@ -12622,6 +12655,7 @@ ul a {
 .third-section-text {
   display: flex;
   padding-top: 50px;
+  padding-bottom: 50px;
 }
 .third-section-text .eleventh-subsection-text {
   padding-right: 119px;
@@ -12651,6 +12685,22 @@ ul a {
 
 .sidste-tekst {
   padding-bottom: 25px;
+}
+
+.third-subsection-text {
+  width: 40%;
+}
+
+.fourth-subsection-text, .fifth-subsection-text {
+  width: 50%;
+}
+
+.seventh-subsection-text, .eight-subsection-text, .nineth-subsection-text, .tenth-subsection-text {
+  width: 30%;
+}
+
+.eleventh-subsection-text {
+  width: 40%;
 }
 
 .kontakt-os-title {
@@ -13334,6 +13384,14 @@ ul a {
     padding-top: 100px;
     font-weight: bold;
     font-size: large;
+  }
+  .butik-body {
+    display: block;
+  }
+  .first-butik-image {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
   }
   .butik-overskrift {
     padding-left: 20px;

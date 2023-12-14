@@ -88,7 +88,7 @@
             </div>
 
             
-            <div class="btn-group">
+            <div class="btn-group">  <!-- dropdown menu til mobil version -->
                 <button type="button" class="btn btn-dark" data-bs-toggle="dropdown" aria-expanded="false">
                     <svg xmlns="http://www.w3.org/2000/svg" width="28" height="20" viewBox="0 0 14 10">
                         <path id="Rayitas-menu" d="M9,19H7V5H9V19M13,5H11V19h2V5m4,0H15V19h2Z" transform="translate(19 -7) rotate(90)" fill="#fff"/>
@@ -97,20 +97,19 @@
                 <ul class="dropdown-menu dropdown-menu-end">
                     <li class="menu-element"><a class="a2" href="besøg.html">Besøg</a></li>
 
-                    <li class="menu-element dropdown"> <!-- Add 'dropdown' class here -->
-                        <a class="a2" href="#" role="button" id="udstillingerDropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Udstillinger
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="udstillingerDropdown">
-                            <!-- Submenu items for Udstillinger -->
-                            <li><a class="a2" href="#">Submenu Item 1</a></li>
-                            <li><a class="a2" href="#">Submenu Item 2</a></li>
-                            <!-- Add more submenu items as needed -->
-                        </ul>
+                    <li>
+                        <div class="btn-group dropstart">
+                            <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                              Udstillinger
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li class="menu-element"><a class="a2" href="kubeflex.html">Kubeflex</a></li>
+                                <li class="menu-element"><a class="a2" href="clay-and-paper.html">Clay and Paper</a></li>
+                            </ul>
+                          </div>
                     </li>
 
                     <li class="menu-element"><a class="a2" href="#">Tur til Trapholt</a></li>
-
                     <li class="menu-element"><a class="a2" href="om-trapholt.html">Om Trapholt</a></li>
                     <li class="menu-element"><a class="a2" href="kontakt-os.html">Kontakt Os</a></li>
                 </ul>
